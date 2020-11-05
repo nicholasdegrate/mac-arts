@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   justify-content: center;
 `
 const Name = styled.div`
-  // color: #FFD00D;
+  // color: #FyFD00D;
   font-family: "Modern Antiqua";
   font-size: 36px;
   padding: 0 1rem;
