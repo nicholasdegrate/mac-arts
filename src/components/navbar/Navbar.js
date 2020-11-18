@@ -1,10 +1,12 @@
 import { React } from 'react';
+import {Link } from "@reach/router"
 import styled from 'styled-components';
 import logo from '../../images/logo.png'
 import facebook from '../../icons/facebook.svg'
 import pintrest from '../../icons/pintrest.svg'
 import twitter from '../../icons/twitter.svg'
 import youtube from '../../icons/youtube.svg'
+
 
 const Navbar = () => {
   
@@ -24,11 +26,23 @@ const Navbar = () => {
           </Name>
         </Left>
         <Right>
-          <div>
-            PROJECTS
+        <div>
+          <Link to="/">
+            HOME
+          </Link>
+      
           </div>
           <div>
+          <Link to="/projects">
+            PROJECTS
+          </Link>
+      
+          </div>
+          <div>
+          <Link to="/about">
             ABOUT US
+          </Link>
+      
           </div>
           <div>
             PRESS
