@@ -18,10 +18,13 @@ const Home = () => {
     <ArtsText><A>A</A><R>R</R><T>T</T><S>S</S></ArtsText>
     <h1>Council</h1>
     </Wrapper>
-      <MainFlex>
+
+
+
+
+      
         <MissionStatement />
-        <Gallery />
-      </MainFlex>
+     
 
      
 
