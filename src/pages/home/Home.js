@@ -13,18 +13,15 @@ const Home = () => {
 
   return (
     <>
-    <Wrapper>
-    <h1>Macedonian</h1>
-    <ArtsText><A>A</A><R>R</R><T>T</T><S>S</S></ArtsText>
-    <h1>Council</h1>
-    </Wrapper>
+      <Wrapper>
+        <h1>Macedonian</h1>
+        <ArtsText><A>A</A><R>R</R><T>T</T><S>S</S></ArtsText>
+        <h1>Council</h1>
+      </Wrapper>
       <MainFlex>
         <MissionStatement />
         <Gallery />
       </MainFlex>
-
-     
-
       <Promoting />
       <CurrentProject />
       {/* <Hero /> */}
