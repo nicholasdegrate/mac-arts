@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import ReactCardFlip from 'react-card-flip';
 
+
 // staff pictures
 import zo from "./staff_images/zo.jpg"
 import mike from "./staff_images/Mike.png"
@@ -13,59 +14,121 @@ import blagoj from "./staff_images/blagoj.jpg"
 
 const Staff = () => {
     const [isZoFlipped, setIsZoFlipped] = useState(false)
+    const [isMikeFlipped, setIsMikeFlipped] = useState(false)
     const [isFlipped, setIsFlipped] = useState(false)
-    // const [isFlipped, setIsFlipped] = useState(false)
-    // const [isFlipped, setIsFlipped] = useState(false)
-    // const [isFlipped, setIsFlipped] = useState(false)
-    // const [isFlipped, setIsFlipped] = useState(false)
-    
-
-
+    const [isJaFlipped, setIsJaFlipped] = useState(false)
+    const [isIgFlipped, setIsIgFlipped] = useState(false)
+    const [isArFlipped, setIsArFlipped] = useState(false)
+   
+    const handleJaFlip = () =>{
+        setIsJaFlipped(!isJaFlipped)
+        }
+    const handleIgFlip = () =>{
+        setIsIgFlipped(!isIgFlipped)
+        }
+    const handleArFlip = () =>{
+        setIsArFlipped(!isArFlipped)
+        }
     const handleZoFlip = () =>{
         setIsZoFlipped(!isZoFlipped)
         }
-        const handleFlip = () =>{
-            setIsFlipped(!isFlipped)
-            }
+    const handleMikeFlip = () =>{
+        setIsMikeFlipped(!isMikeFlipped)
+        }
+    const handleFlip = () =>{
+        setIsFlipped(!isFlipped)
+        }
+   
 
     return (
+
     <>
+    <BordText>Board of Directors</BordText>
+    <Row>
+        <Col size={3}>
     <ReactCardFlip isFlipped = {isZoFlipped} flipDirection="vertical">
         <StyledImage url={zo} onClick={handleZoFlip}/>
         <StyledBack onClick={handleZoFlip}/>
     </ReactCardFlip>
-    <ReactCardFlip isFlipped = {isFlipped} flipDirection="vertical">
-        <StyledImage url={mike}/>
-        <StyledBack onClick={handleFlip}/>
+        </Col>
+        <Col size={3}>
+    <ReactCardFlip isFlipped = {isJaFlipped} flipDirection="vertical">
+        <StyledImage url={jasna} onClick={handleJaFlip}/>
+        <StyledBack onClick={handleJaFlip}/>
     </ReactCardFlip>
-    <ReactCardFlip isFlipped = {isFlipped} flipDirection="vertical">
-        <StyledImage url={jasna}/>
-        <StyledBack onClick={handleFlip}/>
+        </Col>
+        <Col size={3}>
+    <ReactCardFlip isFlipped = {isMikeFlipped} flipDirection="vertical">
+        <StyledImage url={mike} onClick={handleMikeFlip}/>
+        <StyledBack onClick={handleMikeFlip}/>
     </ReactCardFlip>
-    <ReactCardFlip isFlipped = {isFlipped} flipDirection="vertical">
-        <StyledImage url={igor}/>
-        <StyledBack onClick={handleFlip}/>
+        </Col>
+    </Row>
+    <Row>
+    <Col size={3}>
+    <ReactCardFlip isFlipped = {isIgFlipped} flipDirection="vertical">
+        <StyledImage url={igor} onClick={handleIgFlip}/>
+        <StyledBack onClick={handleIgFlip}/>
     </ReactCardFlip>
-    <ReactCardFlip isFlipped = {isFlipped} flipDirection="vertical">
-        <StyledImage url={arno}/>
-        <StyledBack onClick={handleFlip}/>
+    </Col>
+    <Col size={3}>
+    <ReactCardFlip isFlipped = {isArFlipped} flipDirection="vertical">
+        <StyledImage url={arno} onClick={handleArFlip}/>
+        <StyledBack onClick={handleArFlip}/>
     </ReactCardFlip>
+    </Col>
+    <Col size={3}>
     <ReactCardFlip isFlipped = {isFlipped} flipDirection="vertical">
-        <StyledImage url={blagoj}/>
-        <StyledBack onClick={handleFlip}/>
+        <StyledImage url={blagoj} onClick={handleFlip}/>
+        <StyledBack onClick={handleFlip}> </StyledBack>
     </ReactCardFlip>
+    </Col>
+    </Row>
+    <h2>
+        Advisory Board
+    </h2>
+    <ul>
+        <li>
+        Stephen K. Batalden, Arizona State University
+        </li>
+        <li>
+        Risto Nikovski, Former Ambassador
+        </li>
+        <li>
+        Duncan Perry, Ph. D., Dean of Research, Scranton University
+        </li>
+        <li>
+        Andrew Rossos, Ph. D., History, Professor Emeritus, U. of Toronto
+        </li>
+    </ul>
     </>
     
     )
   }
 
+ const Row = styled.div`
+ margin-bottom: 20px;
+ display:flex;
+ justify-content:center;
+ margin-left:10%;
+ `
+ const Col = styled.div`
+ flex: ${(props)=> props.size};
+ 
+ `
 
+ const BordText = styled.div`
+ text-align: center;
+ font-size: 4em;
+ font-family: 'Roboto Condensed', sans-serif;
+ margin-bottom: 2.5%
+ `
 
 
   const StyledImage = styled.div`
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.35);
   background-image: url(${(props) => props.url});
   background-repeat: no-repeat;
@@ -78,8 +141,8 @@ const Staff = () => {
 
 const StyledBack = styled.div`
 border-radius: 50%;
-height: 150px;
-width: 150px;
+height: 200px;
+width: 200px;
 background-color: red;
 `;
 
