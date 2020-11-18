@@ -3,6 +3,7 @@ import Staff from "./Staff"
 import styled from 'styled-components';
 
 
+
 const About = () => {
 
     return (

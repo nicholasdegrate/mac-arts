@@ -55,6 +55,7 @@ const Staff = () => {
         <StyledBack onClick={handleFlip}/>
     </ReactCardFlip>
     </>
+    
     )
   }
 
