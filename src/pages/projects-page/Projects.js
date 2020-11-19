@@ -5,13 +5,42 @@ const Projects = () => {
 
     return (
     <>
-        <ProjectText>Projects & Events</ProjectText>
+        <ProjectText>Projects & Events</ProjectText>  
+        <ProjText>Sort by Category</ProjText>
+        <Card color="red">
+          <CardContent>
+            Hello there
+          </CardContent>
+        </Card>
+        
+
     </>
     )
   }
 
 
-  const ProjectText =styled.div`
+  const Card = styled.div`
+  display: flex;
+  width: 100px;
+  height: 150px;
+  border: 3px solid ${props => props.color};
+  border-radius: 15px;
+  justify-content: space-around;
+  color: ${props => props.color};
+`;
+
+const CardContent = styled.div`
+  align-self: center;
+`;
+
+const ProjText = styled.div`
+margin-top: 2.5%;
+text-align: center;
+font-size: 3em;
+font-family: 'Roboto Condensed', sans-serif;
+margin-bottom: 2.5%
+`
+const ProjectText =styled.div`
     display:flex;
     justify-content: center;
     font-size: 4em;

@@ -8,7 +8,7 @@ const About = () => {
     return (
     <>
     
-        <ProjectText>About</ProjectText>
+        <ProjectText>About Us</ProjectText>
       
         <StateText>
             The Macedonian Arts Council involves a group of volunteers worldwide, who donate their time, talent and efforts to projects that cater to the Arts Council’s mission’ objective, to promote and affirm Macedonian cultural heritage.The Council’s projects are conceptualized and selected based on a single premise: that they preserve, promote and uphold Macedonian cultural heritage, on an ongoing basis. Permanent ethnographic collection and landmarks, documentary programs that celebrate accomplished individuals of Macedonian decent and music projects that promote Macedonian musical heritage, are some of the projects on the organization’s agenda.The Board of directors and the Advisory Board work closely in support of the projects approved for funding. The daily operations of the Council are managed by the Executive Director.

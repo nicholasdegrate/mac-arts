@@ -48,7 +48,10 @@ const Staff = () => {
         <Col size={3}>
     <ReactCardFlip isFlipped = {isZoFlipped} flipDirection="vertical">
         <StyledImage url={zo} onClick={handleZoFlip}/>
-        <StyledBack onClick={handleZoFlip}/>
+        <StyledBack onClick={handleZoFlip}>
+            <p>Name</p>
+            <button>Bio</button>
+        </StyledBack>
     </ReactCardFlip>
         </Col>
         <Col size={3}>
@@ -84,9 +87,9 @@ const Staff = () => {
     </ReactCardFlip>
     </Col>
     </Row>
-    <h2>
+    <AddText>
         Advisory Board
-    </h2>
+    </AddText>
     <ul>
         <li>
         Stephen K. Batalden, Arizona State University
@@ -123,6 +126,13 @@ const Staff = () => {
  font-family: 'Roboto Condensed', sans-serif;
  margin-bottom: 2.5%
  `
+ const AddText = styled.div`
+ text-align: center;
+ font-size: 3em;
+ font-family: 'Roboto Condensed', sans-serif;
+ margin-bottom: 2.5%;
+ margin-top: 2.5%;
+ `
 
 
   const StyledImage = styled.div`
@@ -145,5 +155,9 @@ height: 200px;
 width: 200px;
 background-color: red;
 `;
+
+const StyledBackText = styled.div`
+
+`
 
   export default Staff;
