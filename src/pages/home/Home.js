@@ -7,6 +7,7 @@ import MissionStatement from './MissionStatement';
 import styled from 'styled-components';
 import Gallery from './Gallery';
 import CurrentProject from './CurrentProject';
+import CompletedProject from './CompletedProject';
 import Promoting from './Promoting';
 
 const Home = () => {
@@ -18,27 +19,34 @@ const Home = () => {
     <ArtsText><A>A</A><R>R</R><T>T</T><S>S</S></ArtsText>
     <h1>Council</h1>
     </Wrapper>
-
-
-
-
-      
+   
         <MissionStatement />
-     
-
-     
-
-      <Promoting />
+      <Row>
+        <Col size={3}>
       <CurrentProject />
-      {/* <Hero /> */}
-      <HomeProjects />
-      <HomeFilms />
-      <HomeAboutUs />
+      </Col>
+      <Col size ={3}>
+        <CompletedProject />
+      </Col>
+      </Row>
     </>
   )
     
 
 }
+
+const Row = styled.div`
+padding
+margin-bottom: 20px;
+display:flex;
+justify-content:center;
+margin-left:10%;
+`
+const Col = styled.div`
+flex: ${(props)=> props.size};
+
+`
+
 
 
 
@@ -99,8 +107,6 @@ transparent;
 -webkit-background-clip:text;
 
 `
-
-
 
 const MainFlex = styled.div`
   display: flex;
