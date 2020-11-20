@@ -7,18 +7,33 @@ const About = () => {
 
     return (
     <>
-    
-        <ProjectText>About Us</ProjectText>
       
+        <ProjectText>About Us</ProjectText>
+        <Row>
+      <Col size={2}>
         <StateText>
             The Macedonian Arts Council involves a group of volunteers worldwide, who donate their time, talent and efforts to projects that cater to the Arts Council’s mission’ objective, to promote and affirm Macedonian cultural heritage.The Council’s projects are conceptualized and selected based on a single premise: that they preserve, promote and uphold Macedonian cultural heritage, on an ongoing basis. Permanent ethnographic collection and landmarks, documentary programs that celebrate accomplished individuals of Macedonian decent and music projects that promote Macedonian musical heritage, are some of the projects on the organization’s agenda.The Board of directors and the Advisory Board work closely in support of the projects approved for funding. The daily operations of the Council are managed by the Executive Director.
         </StateText>
-        
-      
+        </Col>
+      <Col size={2}>
         <Staff />
+        </Col>
+        </Row>
     </>
     )
   }
+
+
+  const Row = styled.div`
+  margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  margin-left:10%;
+  `
+  const Col = styled.div`
+  flex: ${(props)=> props.size};
+  
+  `
 
 
   const ProjectText =styled.div`
@@ -47,7 +62,7 @@ font-size: 25px;
 font-family: 'Roboto Condensed', sans-serif;
 color:#9A3B3C;
 background-color: white;
-padding-top:5%;
+padding-top:15%;
 padding-left:5%;
 padding-right:5%;
 padding-bottom:5%

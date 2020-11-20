@@ -49,8 +49,7 @@ const Staff = () => {
     <ReactCardFlip isFlipped = {isZoFlipped} flipDirection="vertical">
         <StyledImage url={zo} onClick={handleZoFlip}/>
         <StyledBack onClick={handleZoFlip}>
-            <p>Name</p>
-            <button>Bio</button>
+        
         </StyledBack>
     </ReactCardFlip>
         </Col>
@@ -60,20 +59,24 @@ const Staff = () => {
         <StyledBack onClick={handleJaFlip}/>
     </ReactCardFlip>
         </Col>
+    </Row>
+    <Row>
         <Col size={3}>
     <ReactCardFlip isFlipped = {isMikeFlipped} flipDirection="vertical">
         <StyledImage url={mike} onClick={handleMikeFlip}/>
         <StyledBack onClick={handleMikeFlip}/>
     </ReactCardFlip>
         </Col>
-    </Row>
-    <Row>
+    
+    
     <Col size={3}>
     <ReactCardFlip isFlipped = {isIgFlipped} flipDirection="vertical">
         <StyledImage url={igor} onClick={handleIgFlip}/>
         <StyledBack onClick={handleIgFlip}/>
     </ReactCardFlip>
     </Col>
+    </Row>
+    <Row>
     <Col size={3}>
     <ReactCardFlip isFlipped = {isArFlipped} flipDirection="vertical">
         <StyledImage url={arno} onClick={handleArFlip}/>
@@ -137,8 +140,8 @@ const Staff = () => {
 
   const StyledImage = styled.div`
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.35);
   background-image: url(${(props) => props.url});
   background-repeat: no-repeat;
@@ -151,8 +154,8 @@ const Staff = () => {
 
 const StyledBack = styled.div`
 border-radius: 50%;
-height: 200px;
-width: 200px;
+height: 150px;
+width: 150px;
 background-color: red;
 `;
 
