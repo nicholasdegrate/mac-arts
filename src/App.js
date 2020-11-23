@@ -2,13 +2,10 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import { Router } from '@reach/router';
 import Home from './pages/home/Home';
-import Projects from './pages/projects-page/Projects';
 import About from './pages/about/About';
 import Press from './pages/press/Press';
 import Contact from './pages/contact/contact';
 import NoMatch from './components/no-match/NoMatch';
-//Projects
-import P2002 from './pages/projects/2002/P2002';
 
 /*
   About the app structure:
@@ -29,8 +26,6 @@ const App = () => (
     <Router>
       <Home path="/" />
       <About path="/about" />
-      <Projects path="/projects" />
-        <P2002 path="/projects/2002" />
       <Press path="/press" />
       <Contact path="/contact" />
       <NoMatch default/>
