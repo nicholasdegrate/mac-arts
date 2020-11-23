@@ -1,37 +1,44 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import FilterBar from '../../components/navbar/FilterBar';
+import Proj1920 from './project/2019-2020'
 
 const Projects = () => {
 
   return (
     <>
-      <ProjectText>Projects & Events</ProjectText>  
-      <ProjText>Sort by Category</ProjText>
-      <FilterBar />
-      <Card color="red">
-        <CardContent>
-          Hello there
-        </CardContent>
-      </Card>
+        <ProjectText>Projects & Events</ProjectText>  
+        <ProjText>Sort by Category</ProjText>
+        <FilterBar />
+        <Row>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        </Row>
+        <Row>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        </Row>
+        <Row>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        <Col flex={4}><Proj1920 /></Col>
+        </Row>
     </>
-  )
-};
+
+    )
+  }
 
 
-const Card = styled.div`
-  display: flex;
-  width: 100px;
-  height: 150px;
-  border: 3px solid ${props => props.color};
-  border-radius: 15px;
-  justify-content: space-around;
-  color: ${props => props.color};
-`;
-
-const CardContent = styled.div`
-  align-self: center;
-`;
+  const Row = styled.div`
+ display:flex;
+ justify-content:space-between;
+ `
+ const Col = styled.div`
+ flex: ${(props)=> props.size};
+ 
+ `
 
 const ProjText = styled.div`
   margin-top: 2.5%;
