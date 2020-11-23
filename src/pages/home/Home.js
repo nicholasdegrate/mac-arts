@@ -14,20 +14,24 @@ const Home = () => {
 
   return (
     <>
-    <Wrapper>
-    <h1>Macedonian</h1>
-    <ArtsText><A>A</A><R>R</R><T>T</T><S>S</S></ArtsText>
-    <h1>Council</h1>
-    </Wrapper>
-   
-        <MissionStatement />
+      <Wrapper>
+        <h1>Macedonian</h1>
+        <ArtsText>
+          <A>A</A><R>R</R><T>T</T><S>S</S>
+        </ArtsText>
+        <h1>Council</h1>
+      </Wrapper>
+      <MissionStatement />
       <Row>
         <Col size={3}>
-      <CurrentProject />
-      </Col>
-      <Col size ={3}>
-        <CompletedProject />
-      </Col>
+          <CurrentProject />
+        </Col>
+        <Col size ={3}>
+          <CompletedProject />
+        </Col>
+      </Row>
+      <Row>
+        Hello
       </Row>
     </>
   )
@@ -36,19 +40,15 @@ const Home = () => {
 }
 
 const Row = styled.div`
-padding
-margin-bottom: 20px;
-display:flex;
-justify-content:center;
-margin-left:10%;
+  // padding
+  // margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  // margin-left:10%;
 `
 const Col = styled.div`
-flex: ${(props)=> props.size};
-
+  flex: ${(props)=> props.size};
 `
-
-
-
 
 const Wrapper = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
@@ -59,44 +59,43 @@ const Wrapper = styled.div`
   `
 
 const ArtsText =styled.div`
-    display:flex;
-    justify-content: center;
-    font-size: 150px;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    font-weight: 1100;
-    top:50%;
-    left: 50%;
+  display:flex;
+  justify-content: center;
+  font-size: 150px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-weight: 1100;
+  top:50%;
+  left: 50%;
 `
 
 
 const A = styled.div`
-background: url(http://www.macedonianarts.org/images/slide10.jpg) 50%, 50%;
-  
-background-size:contain;
--webkit-text-fill-color:
-transparent;
--webkit-background-clip:text;
-
+  background: url(http://www.macedonianarts.org/images/slide10.jpg) 50%, 50%;
+    
+  background-size:contain;
+  -webkit-text-fill-color:
+  transparent;
+  -webkit-background-clip:text;
 `
 
 const R = styled.div`
-background: url(http://www.macedonianarts.org/images/slide5.jpg) 50%, 50%;
-  
-background-size:contain;
--webkit-text-fill-color:
-transparent;
--webkit-background-clip:text;
+  background: url(http://www.macedonianarts.org/images/slide5.jpg) 50%, 50%;
+    
+  background-size:contain;
+  -webkit-text-fill-color:
+  transparent;
+  -webkit-background-clip:text;
 
 `
 const T = styled.div`
-background: url(http://www.macedonianarts.org/images/slide1.jpg) 50%, 50%;
-  
-background-size:contain;
--webkit-text-fill-color:
-transparent;
--webkit-background-clip:text;
+  background: url(http://www.macedonianarts.org/images/slide1.jpg) 50%, 50%;
+    
+  background-size:contain;
+  -webkit-text-fill-color:
+  transparent;
+  -webkit-background-clip:text;
 `
 const S = styled.div`
 background: url(http://www.macedonianarts.org/images/slide2-2.jpg) 50%, 50%;
