@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import {Link } from "@reach/router"
 import styled from 'styled-components';
 import logo from '../../images/logo.png'
@@ -7,48 +7,36 @@ import pintrest from '../../icons/pintrest.svg'
 import twitter from '../../icons/twitter.svg'
 import youtube from '../../icons/youtube.svg'
 
-
 const Navbar = () => {
   
   return (
     <>
       <Wrapper>
         <Left>
-          {/* <Logo /> */}
           <LogoImage src={logo} />
-          <Name>
-            <strong>
-              macedonian arts
-              <div style={{fontSize: "16px", fontWeight: '400'}}>
-                council
-              </div>
-            </strong>
-          </Name>
+          <Link to="/">
+            <Name>            
+              <strong>
+                macedonian arts
+                <div style={{fontSize: "16px", fontWeight: '400'}}>
+                  council
+                </div>
+              </strong>
+            </Name>
+          </Link>
         </Left>
         <Right>
-        <div>
-          <Link to="/">
-            HOME
-          </Link>
-      
+          <div>
+            <Link to="/projects"> PROJECTS </Link>
           </div>
           <div>
-          <Link to="/projects">
-            PROJECTS
-          </Link>
-      
+            <Link to="/about"> ABOUT US </Link>
           </div>
           <div>
-          <Link to="/about">
-            ABOUT US
-          </Link>
-      
+            <Link to="/press"> PRESS </Link>
           </div>
           <div>
-            PRESS
-          </div>
-          <div>
-            CONTACT
+            <Link to="/contact"> CONTACT </Link>
           </div>
           <Social>
             <SocialImage image={facebook} />
@@ -72,13 +60,29 @@ const Wrapper = styled.div`
   width: 100%;
   height: 5rem;
   background: white;
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
 `
 const Left = styled.div`
   display: flex;
   padding: 1.5rem;
   flex-shrink: 0;
   width: 300px;
-
 `
 const Right = styled.div`
   display: flex;

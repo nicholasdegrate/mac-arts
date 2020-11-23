@@ -37,10 +37,10 @@ const CompletedProject = () => {
 
 const Row = styled.div`
 
-margin-bottom: 20px;
-display:flex;
-justify-content:center;
-margin-left:10%;
+  margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  // margin-left:10%;
 `
 
 
@@ -84,17 +84,17 @@ const Info = styled.div`
   text-align: justify;
 `
 const Download = styled.div`
-font-family: 'Merriweather Sans', sans-serif;
-text-align:center;
-margin-bottom:5%;
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 10px;
-padding-bottom 10px;
-text-transform: uppercase;
-color:#D4D4B0;
-background: white;
-border: 5px solid #D4D4B0;
-border-radius:30px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align:center;
+  margin-bottom:5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom 10px;
+  text-transform: uppercase;
+  color:#D4D4B0;
+  background: white;
+  border: 5px solid #D4D4B0;
+  border-radius:30px;
 `
 export default CompletedProject

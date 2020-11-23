@@ -17,7 +17,7 @@ const MissionStatement = () => {
       to the promotion and affirmation 
       of Macedonian cultural heritage, one project at a time.
      </Textbox1>
-    </div>
+  </div>
     )
 }
 
@@ -34,25 +34,20 @@ const Name = styled.div`
  
 `
 const Statement = styled.div`
-text-align:center;
-display:flex;
-padding-left:25%;
-padding-right:25%;
-padding-bottom: 5%;
-background: white;
-
-
+  text-align:center;
+  display:flex;
+  padding-left:25%;
+  padding-right:25%;
+  padding-bottom: 5%;
+  background: white;
 `
-
 
 const Textbox1 = styled.div`
-width:100%;
-text-align:center;
-color:white;
-background-color: #9A3B3C;
-padding:20px;
-
+  width:100%;
+  text-align:center;
+  color:white;
+  background-color: #9A3B3C;
+  padding:20px;
 `
-
 
 export default MissionStatement

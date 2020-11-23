@@ -4,12 +4,16 @@ import { Router } from '@reach/router';
 import Home from './pages/home/Home';
 import Projects from './pages/projects-page/Projects';
 import About from './pages/about/About';
+import Press from './pages/press/Press';
+import Contact from './pages/contact/contact';
 import NoMatch from './components/no-match/NoMatch';
+//Projects
+import P2002 from './pages/projects/2002/P2002';
 
 /*
   About the app structure:
   Components directory: Use for reusable components. Ex. Navbar
-  Pages directory:  Use for the pages that are imported here.
+  Pages directory:  Use for the pages that are impored here.
         You can create folders in this directory for pages and components that are
         only used in that screen. (If used in other places, use component directory instead)
   Projects directory: Pages sub-directory for project pages. 
@@ -19,18 +23,19 @@ import NoMatch from './components/no-match/NoMatch';
             source images directly like so:  <img src="http://macedonianarts.org/images/2004_7.jpg" />
 */
 
-function App() {
-  return (
-    <>
-      <Navbar />
-      <Router>
-        <Home path="/" />
-        <About path="/about" />
-        <NoMatch default/>
-        <Projects path="/projects" />
-      </Router>
-    </>
-  );
-}
+const App = () => (
+  <>
+    <Navbar />
+    <Router>
+      <Home path="/" />
+      <About path="/about" />
+      <Projects path="/projects" />
+        <P2002 path="/projects/2002" />
+      <Press path="/press" />
+      <Contact path="/contact" />
+      <NoMatch default/>
+    </Router>
+  </>
+);
 
 export default App;
