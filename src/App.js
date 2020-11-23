@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import { Router } from '@reach/router';
 import Home from './pages/home/Home';
-import Projects from './pages/projects-page/Projects';
 import About from './pages/about/About';
 import Press from './pages/press/Press';
 import Contact from './pages/contact/contact';
@@ -27,7 +26,6 @@ const App = () => (
     <Router>
       <Home path="/" />
       <About path="/about" />
-      <Projects path="/projects" />
       <Press path="/press" />
       <Contact path="/contact" />
       <NoMatch default/>
