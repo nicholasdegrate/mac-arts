@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import ReactCardFlip from 'react-card-flip';
 
@@ -39,17 +39,21 @@ const Staff = () => {
         setIsFlipped(!isFlipped)
         }
    
+    const learnMore = () =>{
+        console.log("Learn More")
+        setIsZoFlipped(isZoFlipped)
+    }
 
     return (
 
     <>
     <BordText>Board of Directors</BordText>
-    <Row>
+    <SRow>
         <Col size={3}>
     <ReactCardFlip isFlipped = {isZoFlipped} flipDirection="vertical">
         <StyledImage url={zo} onClick={handleZoFlip}/>
         <StyledBack onClick={handleZoFlip}>
-        
+        <Backtext>Hello <br /> <button onClick={learnMore}>Learn More</button></Backtext>
         </StyledBack>
     </ReactCardFlip>
         </Col>
@@ -59,24 +63,20 @@ const Staff = () => {
         <StyledBack onClick={handleJaFlip}/>
     </ReactCardFlip>
         </Col>
-    </Row>
-    <Row>
         <Col size={3}>
     <ReactCardFlip isFlipped = {isMikeFlipped} flipDirection="vertical">
         <StyledImage url={mike} onClick={handleMikeFlip}/>
         <StyledBack onClick={handleMikeFlip}/>
     </ReactCardFlip>
         </Col>
-    
-    
+    </SRow>
+    <SRow>
     <Col size={3}>
     <ReactCardFlip isFlipped = {isIgFlipped} flipDirection="vertical">
         <StyledImage url={igor} onClick={handleIgFlip}/>
         <StyledBack onClick={handleIgFlip}/>
     </ReactCardFlip>
     </Col>
-    </Row>
-    <Row>
     <Col size={3}>
     <ReactCardFlip isFlipped = {isArFlipped} flipDirection="vertical">
         <StyledImage url={arno} onClick={handleArFlip}/>
@@ -89,10 +89,14 @@ const Staff = () => {
         <StyledBack onClick={handleFlip}> </StyledBack>
     </ReactCardFlip>
     </Col>
-    </Row>
+    </SRow>
+    <Row>
     <AddText>
         Advisory Board
     </AddText>
+    </Row>
+    <Row>
+    <AddList>
     <ul>
         <li>
         Stephen K. Batalden, Arizona State University
@@ -107,16 +111,32 @@ const Staff = () => {
         Andrew Rossos, Ph. D., History, Professor Emeritus, U. of Toronto
         </li>
     </ul>
+    </AddList>
+    </Row>
     </>
     
     )
   }
 
+
+  const Backtext = styled.div`
+  padding-top:50px;
+  text-align: center;
+  `
+  const AddList = styled.div`
+  justify-content:center;
+  `
+  const SRow = styled.div`
+  display:flex;
+  justify-content:center;
+  margin-left: 20%;
+  margin-bottom: 15px;
+  `
+
+
  const Row = styled.div`
- margin-bottom: 20px;
  display:flex;
  justify-content:center;
- margin-left:10%;
  `
  const Col = styled.div`
  flex: ${(props)=> props.size};
@@ -159,8 +179,5 @@ width: 150px;
 background-color: red;
 `;
 
-const StyledBackText = styled.div`
-
-`
 
   export default Staff;

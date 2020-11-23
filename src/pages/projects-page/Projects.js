@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import FilterBar from '../../components/navbar/FilterBar';
 
 const Projects = () => {
 
@@ -7,13 +8,12 @@ const Projects = () => {
     <>
         <ProjectText>Projects & Events</ProjectText>  
         <ProjText>Sort by Category</ProjText>
+        <FilterBar />
         <Card color="red">
           <CardContent>
             Hello there
           </CardContent>
         </Card>
-        
-
     </>
     )
   }
@@ -36,15 +36,15 @@ const CardContent = styled.div`
 const ProjText = styled.div`
 margin-top: 2.5%;
 text-align: center;
-font-size: 3em;
-font-family: 'Roboto Condensed', sans-serif;
-margin-bottom: 2.5%
+font-size: 2em;
+font-family: 'Merriweather Sans', sans-serif;
+text-transform: uppercase;
 `
 const ProjectText =styled.div`
     display:flex;
     justify-content: center;
     font-size: 4em;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     color:white;
     background-color: #9A3B3C;
     text-transform: uppercase;
