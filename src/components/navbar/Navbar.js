@@ -55,25 +55,9 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   background: white;
 
-  a:link {
-    color: black;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    text-decoration: none;
-  }
-  a:hover {
-    color: black;
-    text-decoration: none;
-  }
-  a:active {
-    color: black;
-    text-decoration: none;
-  }
 `
 const Left = styled.div`
   display: flex;
@@ -115,7 +99,7 @@ const SocialImage = styled.div`
 `
 const ClearFix = styled.div`
   width: 100%;
-  height: 5rem;
+  height: 4rem;
 `
 export default Navbar
 

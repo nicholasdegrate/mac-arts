@@ -19,6 +19,7 @@ const Home = () => {
 
   return (
     <>
+    <FilterBar />
       <Wrapper>
         <h1>Macedonian</h1>
         <ArtsText>
