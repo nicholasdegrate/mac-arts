@@ -6,6 +6,9 @@ import About from './pages/about/About';
 import Press from './pages/press/Press';
 import Contact from './pages/contact/contact';
 import NoMatch from './components/no-match/NoMatch';
+import LiveEvents from './pages/live-events/LiveEvents';
+import Video from './pages/video/Video';
+import ArtExhibits from './pages/art-exhibits/ArtExhibits';
 
 /*
   About the app structure:
@@ -27,6 +30,9 @@ const App = () => (
       <Home path="/" />
       <About path="/about" />
       <Press path="/press" />
+      <Video path="/video" />
+      <LiveEvents path="/live-events" />
+      <ArtExhibits path="/art-exhibits" />
       <Contact path="/contact" />
       <NoMatch default/>
     </Router>

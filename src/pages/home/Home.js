@@ -9,11 +9,13 @@ import Gallery from './Gallery';
 import CurrentProject from './CurrentProject';
 import CompletedProject from './CompletedProject';
 import Promoting from './Promoting';
+import FilterBar from '../../components/navbar/FilterBar';
 
 const Home = () => {
 
   return (
     <>
+    <FilterBar />
       <Wrapper>
         <h1>Macedonian</h1>
         <ArtsText>
