@@ -60,17 +60,11 @@ const Row = styled.div`
   `
 
 const Wrapper = styled.div`
-  height: 300px;
-  // border: 1px solid green;
   text-align: center;
   padding: 1rem;  
   background: white;
 `
-const Flex = styled.div`
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-`
+
 
 const LiltsDiv = styled.div`
   height: 250px;
@@ -86,7 +80,7 @@ const Info = styled.div`
 const Download = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
   text-align:center;
-  margin-bottom:5%;
+  margin-top:5%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;

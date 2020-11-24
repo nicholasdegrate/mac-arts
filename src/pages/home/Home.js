@@ -10,6 +10,10 @@ import CurrentProject from './CurrentProject';
 import CompletedProject from './CompletedProject';
 import Promoting from './Promoting';
 import FilterBar from '../../components/navbar/FilterBar';
+import Featured from "./Featured";
+import FeatSmall1 from "./FeatSmall1"
+import FeatSmall2 from "./FeatSmall2"
+
 
 const Home = () => {
 
@@ -33,7 +37,23 @@ const Home = () => {
         </Col>
       </Row>
       <Row>
-        Hello
+        <Wrapper>
+          <h1 style={{color:"#9A3B3C"}}>1994-2021</h1>
+        </Wrapper>
+      </Row>
+      <Row><FilterBar /></Row>
+      <Row>
+        <Col size={2}>
+           <Featured />
+        </Col>
+        <Col size={2}>
+          <Row>
+          <FeatSmall1/>
+          </Row>
+          <Row>
+         <FeatSmall2/>
+          </Row>
+        </Col>
       </Row>
     </>
   )
@@ -42,12 +62,11 @@ const Home = () => {
 }
 
 const Row = styled.div`
-  // padding
-  // margin-bottom: 20px;
   display:flex;
   justify-content:center;
-  // margin-left:10%;
 `
+
+
 const Col = styled.div`
   flex: ${(props)=> props.size};
 `
@@ -73,6 +92,12 @@ const ArtsText =styled.div`
 `
 
 
+
+
+
+
+
+
 const A = styled.div`
   background: url(http://www.macedonianarts.org/images/slide10.jpg) 50%, 50%;
     
@@ -92,7 +117,7 @@ const R = styled.div`
 
 `
 const T = styled.div`
-  background: url(http://www.macedonianarts.org/images/slide1.jpg) 50%, 50%;
+  background: url(http://www.macedonianarts.org/images/slide1.jpg) 1000%, 90%;
     
   background-size:contain;
   -webkit-text-fill-color:
@@ -109,14 +134,5 @@ transparent;
 
 `
 
-const MainFlex = styled.div`
-  display: flex;
-  height: 50vh;
-  min-height: 400px;
-  max-height: 750px;
-  // flex-wrap: wrap;
-  background: white;
-  padding-bottom: 1rem;
-`
 
 export default Home

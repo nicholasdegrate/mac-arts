@@ -57,8 +57,6 @@ border-radius:15px;
 
 
 const Wrapper = styled.div`
-  height: 300px;
-  // border: 1px solid green;
   text-align: center;
   padding: 1rem;  
   background: white;
