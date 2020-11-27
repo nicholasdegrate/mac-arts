@@ -9,6 +9,7 @@ import NoMatch from './components/no-match/NoMatch';
 import LiveEvents from './pages/live-events/LiveEvents';
 import Video from './pages/video/Video';
 import ArtExhibits from './pages/art-exhibits/ArtExhibits';
+import Education from './pages/education/Education';
 
 /*
   About the app structure:
@@ -33,6 +34,7 @@ const App = () => (
       <Video path="/video" />
       <LiveEvents path="/live-events" />
       <ArtExhibits path="/art-exhibits" />
+      <Education path="/education" />
       <Contact path="/contact" />
       <NoMatch default/>
     </Router>
