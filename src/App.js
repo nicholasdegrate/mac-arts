@@ -8,6 +8,7 @@ import Contact from './pages/contact/contact';
 import NoMatch from './components/no-match/NoMatch';
 import LiveEvents from './pages/live-events/LiveEvents';
 import Video from './pages/video/Video';
+import Audio from './pages/audio/Audio'
 import ArtExhibits from './pages/art-exhibits/ArtExhibits';
 
 /*
@@ -31,6 +32,7 @@ const App = () => (
       <About path="/about" />
       <Press path="/press" />
       <Video path="/video" />
+      <Audio path="/audio"/>
       <LiveEvents path="/live-events" />
       <ArtExhibits path="/art-exhibits" />
       <Contact path="/contact" />

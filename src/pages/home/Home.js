@@ -94,10 +94,6 @@ const ArtsText =styled.div`
 
 
 
-
-
-
-
 const A = styled.div`
   background: url(http://www.macedonianarts.org/images/slide10.jpg) 50%, 50%;
     
