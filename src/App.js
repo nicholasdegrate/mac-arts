@@ -10,6 +10,7 @@ import LiveEvents from './pages/live-events/LiveEvents';
 import Video from './pages/video/Video';
 import Audio from './pages/audio/Audio'
 import ArtExhibits from './pages/art-exhibits/ArtExhibits';
+import Education from './pages/education/Education';
 
 /*
   About the app structure:
@@ -35,6 +36,7 @@ const App = () => (
       <Audio path="/audio"/>
       <LiveEvents path="/live-events" />
       <ArtExhibits path="/art-exhibits" />
+      <Education path="/education" />
       <Contact path="/contact" />
       <NoMatch default/>
     </Router>

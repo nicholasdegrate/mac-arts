@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const P2012 = () => (
   <Wrapper>
-    <div>
+    <div style={{minWidth: "400px"}}>
         <img src="http://macedonianarts.org/images/2012a.jpg" align="left" style={{margin: "0 20px 20px 0"}} />
-        <div style={{textAlign: "center", transform: "translateY(-30px)"}} >CATENA MUNDI JEWELRY COLLECTION</div>
+        <div style={{textAlign: "center" }} >CATENA MUNDI JEWELRY COLLECTION</div>
         Inspired by an old attribute to the biblical land of Macedonia, the collection was named Catena Mundi, which means “lock of the world.”   The reference has been made because the land of Macedonia connects the tectonic plates of Europe and Asia.
       <p> 
         A crossroad for conquerors and the birthplace of one of the world’s great alphabets, the Cyrillic, Macedonia’s          cultural beauty encompasses fresco arts, woodcarving, and the filigree art which was the inspiration for this collection.
@@ -15,7 +15,7 @@ const P2012 = () => (
       <p>© ™ 2012  MAC</p>
     </div>
     
-    <div style={{zIndex: "-1"}}>
+    <div style={{zIndex: "-1", padding: "0 1rem"}}>
       <video width="100%" height="auto;" controls="true">
         <source src="http://macedonianarts.org/images/2012catena.mp4" type="video/mp4" />
       </video>

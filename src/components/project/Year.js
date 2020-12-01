@@ -17,5 +17,9 @@ const RedTab = styled.div`
   text-align: center;
   font-size: 18px;
 
+  @media (max-width: 320px) {
+    font-size: 16px;
+  }
+
 `
 export default Year
