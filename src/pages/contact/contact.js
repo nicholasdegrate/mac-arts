@@ -17,31 +17,30 @@ const Contact = () => {
         </ContactP>
         </Col>
         <Col size={5}>
-        <br/>
-        <br/>
+        
         <form action="mailto:info@macedonianarts.org">
         <label for="fname"><b>First Name</b></label>
         <FormWrap>
-        <input  style={{width:'400px'}} type="text" placeholder="First Name" name="fname" required />
+        <Input type="text" placeholder="First Name" name="fname" required />
         </FormWrap>
-        <br/>
+       
         <label for="lname"><b>Last Name</b></label>
         <FormWrap>
-        <input style={{width:'400px'}} type="text" placeholder="Last Name" name="lname" required />
+        <Input type="text" placeholder="Last Name" name="lname" required />
         </FormWrap>
-        <br />
+       
         <label for="email"><b>Email</b></label>
         <FormWrap>
-        <input style={{width:'400px'}}type="email" placeholder="Email" name="email" required />
+        <Input type="email" placeholder="Email" name="email" required />
         </FormWrap>
-        <br/>
+       
         <label for="message"><b>Message</b></label>
         <FormWrap>
-        <input style={{height:'200px',width:'400px'}}type="text" placeholder="Write Something..." name="message" required />
-        <br/>
+        <Input style={{height:'200px'}}type="text" placeholder="Write Something..." name="message" required />
+       
         </FormWrap>
-        <br />
-        <input type="submit" value="Submit"></input>
+       
+        <Submit type="submit" value="Submit" />
         </form>
         </Col>
         </Row>
@@ -66,6 +65,34 @@ overflow: hidden;
 postion: fixed;
 
 `
+
+const Input = styled.input`
+margin: 2.5%;
+width: 400px ;
+border-radius: 5px;
+
+`
+const Submit = styled.input`
+transition: opacity .3s ease-in-out; 
+margin: 2.5%;
+width: 100px ;
+height: 40px;
+border-radius: 15px;
+background: none;
+text-transform: uppercase;
+font-family: 'Merriweather Sans', sans-serif;
+color:#9A3B3C;
+border: 5px solid #9A3B3C;
+cursor: pointer;
+&:hover {
+  background:#9A3B3C;
+  color: white;
+  transition: 0;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+`
+
 
 
 const Col = styled.div`
