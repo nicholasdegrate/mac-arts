@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Macedonian Arts Council</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/modernantiqua" type="text/css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/logotaglineresponsive.css"/>
+		<link rel="stylesheet" href="css/topsidenavresponsive.css"/>
+    	<link rel="stylesheet" href="css/footerresponsive.css"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/slippry.min.js"></script>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<link rel="stylesheet" href="css/slippry.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.png"/>
+
+		<style>
+
+			.content_box1 {
+				margin: 10px 0 0 0;
+			}
+
+			.content_box2 {
+				margin: 10px 20px 0 0;
+			}
+
+			.linebreakBOTTOM {
+	color: #880000;
+	width: 780px;
+	height: 1px;
+	margin: -12px 0 20px 0;
+	border-bottom: 1px solid #880000;
+}
+		
+	  /*main desktop*/
+	  @media only screen and (max-width: 1024px) {
+	
+		.links1 {
+		  display: none;
+		}
+	  }
+
+	  @media only screen and (max-width: 1024px) {
+		.content_box1{
+			float: left;
+			width: 380px;
+			margin: 10px 10px 10px 11.5%;
+			text-align: justify;
+		}
+	  }
+
+	  @media only screen and (max-width: 812px) {
+		.content_box1 {
+			margin: 10px 0 10px 26.5%;
+	
+		}
+		.content_box2 {
+			margin: 10px 0 0 24%;
+		}
+	  }
+
+	  @media only screen and (max-width: 768px) {
+		.content_box1{
+			float: left;
+			width: 380px;
+			margin: 10px 10px 10px 24%;
+			text-align: justify;
+		}
+
+		.content_box2 {
+			margin-right: 27.5%;
+		}
+	  }
+
+		@media only screen and (max-width: 667px) {
+			.content_box1 {
+				margin-left: 21.5%;
+			}
+
+			.content_box2 {
+				margin-left: 18.5%;
+			}
+		}
+	
+
+		@media only screen and (max-width: 640px) {
+			.event {
+				margin-top: -120px;
+			}
+
+			.content_box3 {
+				margin-top: 120px;
+			}
+			
+			.content_box1 {
+				margin-left: 20.5%;
+			}
+
+			.content_box2 {
+				margin-left: 17%;
+			}
+
+			.footer {
+				margin-top: -30px;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			.content_box1 {
+				margin-left: 10.5%;
+			}
+
+			.content_box2 {
+				margin-left: 6.5%;
+			}
+	}
+
+	@media only screen and (max-width: 480px) {
+			.content_box1 {
+				width: 90%;
+				margin-left: 5%;
+			}
+
+			.content_box1 img {
+				width: 100%;
+			}
+
+			.content_box2 {
+				width: 90%;
+				margin-left: 2.5%;
+			}
+
+			.content_box2 img {
+				width: 100%;
+			}
+
+			video {
+				width: 100%;
+				height: auto;
+			}
+			
+	}
+	  
+		
+		</style>
+		</head>
+
+<body>
+    <div class="content">
+     <div class="left_column">
+	<a href="index.shtml"><div class="logo"></div></a>
+
+		<!--links1 include statement-->
+		<div w3-include-html="links1.shtml"></div> 
+		<script>
+		w3.includeHTML();
+		</script>
+
+		<div class="mailing_list_desktop">
+                    Sign up for our mailing list
+                    <form method="post" action="http://oi.vresp.com?fid=a3efff24bd" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >
+                        <input type="submit" value="Sign Up">
+                    </form>
+		</div>
+		<div class="linebreak">
+		</div>
+		<!--<div class="social_desktop">
+			<a href="https://www.facebook.com/pages/Macedonian-Arts-Council/50616408646" target="new"><img src="images/icon_facebook.png"></a>
+			<a href="#" target="new"><img src="images/icon_twitter.png"></a>
+			<a href="#" target="new"><img src="images/icon_pinterest.png"></a>
+			<a href="#" target="new"><img src="images/icon_youtube.png"></a>
+			<!-- <a href="#" target="new"><img src="images/icon_linkedin.png"></a> 
+		</div>-->
+</div>            <div class="right_column">
+			<div class="tagline">Promoting Macedonian cultural heritage, one project at a time!</div>
+			
+			<!--<div w3-include-html="links2.shtml"></div> 
+			<script>
+			w3.includeHTML();
+			</script>-->
+
+			<!--topsidenavresponsive include statement-->
+			<div w3-include-html="topsidenavresponsive.shtml"></div> 
+			<script>
+			w3.includeHTML();
+			</script>
+	
+			<script>
+				function myFunction() {
+						var x = document.getElementById("myTopnav");
+						if (x.className === "topnav") {
+								x.className += " responsive";
+						} else {
+								x.className = "topnav";
+						}
+				}
+				</script>
+	
+		<script>
+		function openNav() {
+				document.getElementById("mySidenav").style.display = "block";
+		}
+		
+		function closeNav() {
+				document.getElementById("mySidenav").style.display = "none";
+		}
+		</script>
+
+            <div class="title_bar">
+				Projects & Events - 2008
+            </div>
+            
+            <div class="right_column_content">
+				
+            <div class="event">
+            <div class="content_box3">
+            <div class="name"><b>CULTURAL CONNECTIONS - Santa Fe</b></div>
+                <p>Following in the footsteps of great painters like Bert G. Phillips, Ernest Leonard Blumenschein, Peter Hurd 
+and New Mexico's best-known artist Georgia O'Keeffe, two Macedonian artists were chosen to participate in 
+a month-long artist colony in Santa Fe, New Mexico. Stirred by the lights and shadows of one of the most sought-after places for artists, they could also draw inspiration from the local visual settings that are eerily similar to 
+the visuals of one Macedonian city in particular, the city of Prilep.</p><br>
+<p>To connect culturally is to understand that art is never exclusive, only a part of a world tapestry of cultures that are to connect peoples from the world over. The artists’ paintings will be exhibited in a Santa Fe gallery, as part of larger scale events planned for 2010.
+
+                </p>
+
+			</div>
+            <div class="content_box1" style="text-align: center;">               
+                <p><img src="images/2008_1.jpg">
+                <br><br><img src="images/2008_3.jpg">
+                <br><br><img src="images/2008_5.jpg">
+                <br><br><img src="images/2008_7.jpg">
+				<br><br><br></p>
+				
+					
+			<div class="linebreakBOTTOM"></div>
+                <div class="name">
+					<b>TRIO INTERART</b><br>June 28, 2008</div>
+                <p>The 1794 Meetinghouse, New Salem, Massachusetts
+Emilija Ristevska Stefanovska, flute<br> 
+Aleksandar Stefanovski, flute<br>
+Tatjana Bozinovska, piano
+<br><br>
+Produced and funded by<br>
+The North Quabbin Center for the Performing Arts
+<br><br>
+Silent auction sponsored by<br> 
+The Macedonian Arts Council
+                </p>
+
+			</div>
+            <div class="content_box2" style="text-align:center;">
+            	<p><img src="images/2008_2.jpg">
+                <br><br><img src="images/2008_4.jpg">
+                <br><br><img src="images/2008_6.jpg">
+                <br><br><img src="images/2008_8.jpg">
+                <br><br>
+    
+                <video width="380" height="285" controls>
+                <source src="http://macedonianarts.org/images/2008Trio.mp4" type="video/mp4">
+                <object data="" width="320" height="240">
+                <embed width="320" height="240" src="http://macedonianarts.org/images/2008Trio.mp4">
+                </object>
+                </video>
+                
+            </div>
+            
+            </div>
+            
+            </div>
+        
+            </div>
+		
+			<div w3-include-html="footer.shtml"></div> 
+			<script>
+			  w3.includeHTML();
+		  </script>
+
+    </div>
+    
+<script>
+			$(function() {
+				var gallery = $("#gallery").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				$('.stop').click(function () {
+					gallery.stopAuto();
+				});
+
+				$('.start').click(function () {
+					gallery.startAuto();
+				});
+
+				$('.prev').click(function () {
+					gallery.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					gallery.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					gallery.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					gallery.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					gallery = $("#gallery").slippry();
+					return false;
+				});
+			});
+		</script>
+    
+</body>
+</html>

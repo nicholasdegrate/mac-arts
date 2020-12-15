@@ -1,11 +1,15 @@
-import React from 'react';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
 import styled from 'styled-components';
 
-
 const Year = ({year, width}) => (
-  <RedTab width={width}>
-    {year}
-  </RedTab>
+  <div css={css`display: flex; justify-content: center;`}>
+    <div css={css`width: 780px;`}>
+      <RedTab width={width}>
+        {year}
+      </RedTab>
+    </div>
+  </div>
 )
 
 const RedTab = styled.div`
@@ -21,5 +25,12 @@ const RedTab = styled.div`
     font-size: 16px;
   }
 
+  margin: 0 1rem;
+
+  @media (max-width: 767px) {
+    margin: auto;
+
+  }
 `
-export default Year
+
+export default Year;
