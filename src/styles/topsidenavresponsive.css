@@ -1,0 +1,228 @@
+/*responsive navbar*/
+.albumcover img {
+  width: 150px;
+  height: 150px;
+}
+
+.sidenavhide {
+    display: none;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #ffd00c;
+    margin: 25px 0 30px 0;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #494949;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: .9em;
+    font-family: 'Lato', Arial, sans-serif;
+    weight: 400;
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 2em;
+    margin: 0 0.6%;
+  }
+
+  .streamBold a {
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -5px;
+  }
+
+  .streamNorm a {
+    display: none;
+  }
+
+  .topnav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .topnav span {
+    display: none;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .topnav a {display: none;}
+
+    .topnav a {
+      padding: 5px 20px;
+    }
+
+    .topnav a.icon {
+      float: right;
+      margin-right: 0px;
+      display: block;
+    }
+
+    #topmarghome {
+      margin-top: 5px;
+    }
+
+    .topnav span {
+      float: left;
+      display: block;
+      margin-top: 12px;
+      margin-left: 10px;
+    }
+
+    .streamBold {
+      display: none;
+    }
+
+    .streamNorm a {
+      float: left;
+      color: #494949;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 10px 0px;
+      text-decoration: none;
+      font-size: .9em;
+      font-family: 'Lato', Arial, sans-serif;
+      weight: 400;
+      list-style-type: none;
+      padding-left: 20px;
+      line-height: 2em;
+      /*margin: 0 0.6%;*/
+      margin-top: -0.75%;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+
+    .topnav.responsive span {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 667px) {
+    .topnav a {
+      font-size: .6em;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .topnav a {
+      font-size: .9em;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .topnav a {
+      font-size: .9em;
+    }
+  }
+
+  /*responsive sidenav*/
+  @media screen and (max-width: 1024px) {
+  .sidenavhide {
+    display: block;
+  }
+
+  .sidenav {
+    display: none;
+    height: 100%;
+    /*width: 25%;*/
+    position: fixed;
+    overflow: auto;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    padding: 5%;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  tr, td {
+    text-align: center;
+  }
+
+  .tableAlbum {
+    margin-top: 12px;
+    border-collapse: collapse;
+    padding: 5%;
+    table-layout: fixed;
+  }
+
+  .tableAlbum img {
+    margin-top: 10px;
+  }
+
+  .tableSignUp {
+    margin-left: 25%;
+    margin-top: 17.5%;
+    border-collapse: collapse;
+    padding: 5%;
+    /*table-layout: fixed;*/
+  }
+
+  .tableSocMed {
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    padding: 5%;
+    table-layout: fixed;
+  }
+  }
+
+@media screen and (max-width: 667px) {
+  .tableAlbum {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .tableSignUp {
+    margin-right: 25%;
+  }
+
+  .tableSignUp {
+    margin-left: 17.5%;
+  }
+}

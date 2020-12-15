@@ -1,0 +1,3081 @@
+
+
+.lullabies_1994 {
+    margin: 9px 0 0 0;
+}
+
+.lullabiestitle_1994 {
+	font-size:.95em;
+}
+
+.as_2002 {
+	font-size: 8px;
+	line-height: 1.6em;
+}
+
+.virtual_2002 {
+	margin: 27px 0 0 0;
+	font-size: 1em;
+}
+
+.tourtitle_2002 {
+	margin: 0 0 12px 0;
+}
+
+.theprogram_2003 {
+	margin: 21px 0 0 0;
+}
+
+.ilinden_2003 {
+    font-size: 12px;
+}
+
+.whispers_2015 {
+	font-size: 1em;
+}
+
+.tba {
+	font-size: 0.78em;
+	margin: 0 0 12px 0;
+	line-height: 1.1em;
+	font-weight:500;
+	font-family:'Lato', Arial, sans-serif;
+}
+
+
+.post {
+	font-size: 0.7em;
+	font-family: 'Cardo', serif;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 0 0 6px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.neco_2004 {
+	margin: 35px 0 0 0;
+}
+
+.thelecture_2005 {
+	margin: 35px 0 0 0;
+}
+
+.neco_2004 {
+	font-size: .75em;
+}
+
+.theceremony_2006 {
+	margin: 35px 0 0 0;
+	font-size: 1em;
+}
+
+.ceremonytitle_2006 {
+	font-size: .8em;
+}
+
+.necotitle_2004 {
+	font-size: 1.0em;
+	padding: 2px 0 2px 0;
+}
+
+.wikititle_2007 {
+	font-size: 1.0em;
+	padding: 2px 0 0 0;
+}
+
+.wiki_2007 {
+	margin: 35px 0 0 0;
+	font-size: 0.87em;
+}
+
+.art_2008 {
+	font-size: .88em;
+}
+
+.monument_2006 {
+	font-size: .94em;
+}
+
+.theconcert_2008 {
+	margin: 50px 0 0 0;
+}
+
+.art_2009 {
+    font-size: .89em;
+}
+
+.collection_2010 {
+	font-size: .89em;
+}
+
+.thecollection_2012 {
+	margin: 0 0 0 0;
+}
+
+.collectiontitle_2012 {
+	font-size: .85em;
+}
+
+.world_2015 {
+	font-size: 1em;
+}
+
+.moviepremiere_2015 {
+	margin: 50px 0 0 0;
+}
+
+.folk_2017 {
+	margin: 50px 0 0 0;
+}
+
+.folktitle_2017 {
+	font-size: .75em;
+}
+
+.small_thumb_text {
+	float:left;
+	font-size:.8em;
+	text-align:left;
+}
+
+.small_thumb_image {
+	margin:0 0 0 5px;
+	float:right;
+}
+
+
+
+/*The following can be used to create up, down, right, and left arrows to use in place of images for bullets, etc. Place on a DIV element*/
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #880000;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #880000;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-left: 10px solid #880000;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid #880000;
+}
+
+.bullet-text a:link, .bullet-text a:visited {text-align: center; float: left; margin-left: 20px; text-decoration: none !important; text-transform:uppercase; font-weight: bold; font-size: 0.9em; font-family:'Lato', Arial, sans-serif; color: #880000;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* margin: 0 auto; */
+	/* padding: 0px; */
+	/* background-color:#fff; */
+	/* background-image: url(http://www.macedonianarts.org/images/bg_desktop.jpg); */
+	/* background-position: top center; */
+}
+
+.content {
+	width: 1020px;
+	margin: 20px auto 0;
+}
+
+.content-a {
+	width: 1020px;
+	margin: 15px auto 0;
+}
+
+.left_column {
+	float: left;
+	width: 200px;
+	text-align: center;
+	/*border: 1px #000 solid;*/
+}
+
+.cm { float: left; }
+
+.logo {
+	background-image: url(http://www.macedonianarts.org/images/logo_desktop.png);
+	width: 200px;
+	height: 58px;
+	float: left;
+	margin: 59px 0 30px 0;
+}
+
+/*viewport full*/
+.links1 {
+	padding: 10px 0px;
+	width: 105%;
+	height: 350px;
+	background-color: white;
+	float:left;
+	margin: 0 0 30px 0;
+}
+
+.links1 ul li { list-style-type: none; font-family: 'Lato', Arial, sans-serif; color: #494949; font-size: .9em; weight: 400; line-height: 2em; text-transform: uppercase; display: block; text-align: left; padding-left: 20px }
+.links1 li a:link { color: #494949; text-decoration: none; }
+.links1 li a:visited { color: #494949; text-decoration: none; }
+.links1 li a:hover { color: #494949; text-decoration: underline; }
+.links1 li a:active { color: #494949; text-decoration: none; }
+
+.albumandcaption1 {
+	margin-left: 30px;
+	margin-top: -20px;
+}
+
+.albumandcaption2 {
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+#caption {
+	margin-left: 0px;
+	font-size: 10px;
+}
+
+/*#captionlink {
+	font-size: 10px;
+}*/
+
+.links2 {
+	padding: 10px 0px;
+	width: 100%;
+	background-color: #ffd00c;
+	float:left;
+	margin: 15px 0 30px 0;
+}
+
+.links2 ul li { float: left; list-style-type: none; font-family: 'Lato', Arial, sans-serif; color: #494949; font-size: .9em; weight: 400; line-height: 2em; text-transform: uppercase; display: block; text-align: left; padding-left: 20px; }
+.links2 li a:link { color: #494949; text-decoration: none; }
+.links2 li a:visited { color: #494949; text-decoration: none; }
+.links2 li a:hover { color: #494949; text-decoration: underline; }
+.links2 li a:active { color: #494949; text-decoration: none; }
+
+
+
+.mailing_list_desktop {
+	width: 160px;
+	float: right;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #494949;
+	font-size: .85em;
+	weight: 400;
+	line-height: 2em;
+	text-align: center;
+	margin-top: 300px;
+	border: 1px;
+}
+
+button#myBtn {
+    border-style: none;
+    text-align: center;
+    min-width: 180px;
+    background-color: white;
+    color: white;
+}
+
+.mailing_list_desktop form input {
+	/*border-style: none;*/
+	text-align: center;
+	/* min-width: 150px; */
+	/*color: white;*/
+	height: 30px;
+	width: 82px;
+	/* margin: 0px auto; */
+	/* padding: 2px; */
+	font-size: smaller;
+}
+
+.mailing_list_desktop form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid;*/
+	/* padding: 0px 23px; */
+	display: inline-block;
+}
+
+input {
+	/*width:188px;*/
+	padding: 0 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #333333;
+	font-size: 1.0em;
+	weight: 400;
+	line-height: 2em;
+}
+
+input[type=submit] {
+	width: 105px;
+	height: 40px;
+	background-color: #880000;
+	float: left;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	margin: 0 0 0 0;
+	padding: 0 0 0 25px;
+	background-image: url(http://www.macedonianarts.org/images/mail.svg);
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+/*.linebreak {
+	width: 200px;
+	height: 1px;
+	margin: 30px 0 30px 0;
+	float:left;
+}*/
+
+.social_desktop {
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.social_desktop img {
+	margin: 0 4px 0 0;
+}
+
+.mailing_list_tablet { display: none; }
+
+.social_tablet { display: none; }
+
+.social_tablet img { display: none; }
+
+.right_column {
+	width: 780px;
+	float: right;
+	margin: 10px 0 0 0;
+}
+
+.right_column_content {
+	/*margin: 120px 0 0 0;*/
+}
+
+.right_column_content2 {
+	/* margin: 675px 0 0 0;*/
+	margin: auto 0 0 0;
+}
+
+.mission {
+	width: 300px;
+	height: 280px;
+	margin: -5px 20px 0 0;
+	background-color: #880000;
+	background-image: url(http://www.macedonianarts.org/images/Mission.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 1.15em;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: #fff;
+	padding: 50px 40px 50px;
+	text-align: justify;
+}
+
+.mac {
+	font-size: 1.33em;
+	font-weight: 700;
+	text-align: justify;
+}
+
+/*viewport full*/
+.slideshow {
+	width: 380px;
+	margin: -5px 0 0 400px;
+	z-index: 1;
+}
+
+.linebreak2 {
+	color: #880000;
+	height: 1px;
+	margin: 25px 0 25px 0;
+	margin-top: 35px;
+	border-bottom: 1px solid #880000;
+}
+
+.content_boxMAC {
+	float: left;
+	width: 740px;
+	margin: 30px 0 0 0;
+	text-align: justify;
+	padding: 20px 20px 20px 20px;
+	background: #e6e5e1;
+	font-family: 'Lato', Arial, sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.content_boxAB {
+	float: left;
+	width: 240px;
+	margin: 30px 0 -20px 20px;
+	text-align: justify;
+}
+
+.boardAB {
+	background-color: #e6e5e1;
+	/*width: 334px;*/
+	padding: 20px 20px 13px 20px;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+.content_boxBID {
+	background-color: #e6e5e1;
+	float: left;
+	width: 374px;
+	margin: 30px 0 0 0;
+	text-align: justify;
+}
+
+.content_boxBID h1 {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 20px 0;
+	color: #880000;
+}
+
+/*viewport full*/
+.content_box1{
+	float: left;
+	width: 380px;
+	margin: 10px 10px 10px 0;
+	text-align: justify;
+}
+
+.content_box1-a{
+	float: left;
+	width: 100%;
+	margin: 30px 0 10px 0;
+	text-align: justify;
+}
+
+.content_box_sc {
+    float: left;
+    width: 30%;
+    margin: 30px 1% 0;
+}
+
+.content_box_sc .media_box {
+    width: auto;
+}
+
+.mobilePrestitial.mobilePrestitial__deeplink.sc-button-large {
+    font-size: 15px !important;
+}
+
+.content_box1 h1,
+.content_box_sc h1{
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 15px 0;
+	color: #880000;
+}
+.content_box1 h1 a:link { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:link { color: #880000; text-decoration: none; }
+.content_box1 h1 a:visited { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:visited { color: #880000; text-decoration: none; }
+.content_box1 h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box_sc h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box1 h1 a:active { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:active { color: #880000; text-decoration: none; }
+
+
+.content_boxAUCTION {
+	float: left;
+	width: 380px;
+	margin: 30px 0 0 20px;
+	text-align: justify;
+	border-style: groove;
+}
+
+/*viewport full*/
+.content_box2 {
+	float: left;
+	width: 380px;
+	margin: 10px 0 0 10px;
+	text-align: justify;
+}
+
+
+.content_box2-2 {
+	float: left;
+	width: 380px;
+	margin: 10px 0 0 10px;
+	text-align: justify;
+}
+
+.content_box2-3 {
+	float: left;
+	width: 380px;
+	margin: 10px 0 0 10px;
+	text-align: justify;
+}
+
+.content_box2 h1 a {
+	margin-left: 10px;
+}
+
+.content_box2 p {
+	margin-left: 20px;
+}
+
+.content_box1b {
+	float: left;
+	width: 100%;
+	margin: 30px 0 15px 0;
+	text-align: justify;
+}
+
+.content_box2b {
+	float: left;
+	width: 321px;
+	margin: 30px 0 0 20px;
+	text-align: justify;
+
+}
+
+.content_box3 {
+	float: left;
+	width: 780px;
+	margin: 30px 0 0 0;
+	text-align: justify;
+	position: static;
+}
+.content .right_column .content_box3 {
+}
+
+
+
+
+
+.content_box99 input {
+	width:260px;
+	float: right;
+}
+
+.content_box2 .donate_page_button input {
+	width:171px;
+	float: none;
+	border: 0px;
+}
+
+.donate_page_button { font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: bolder; font-size: 15px; color:#636363;}
+
+.message {
+	height:196px;
+	background-image:url(http://www.macedonianarts.org/images/message_bg.jpg);
+	background-color:transparent;
+}
+
+.content_box2 .submit {
+	float: right;
+	width: 171px;
+}
+
+.form_box {
+	float: left;
+	width: 380px;
+	margin: 30px 0 0 20px;
+}
+
+.media_box {
+	background-color: #e6e5e1;
+	width: 340px;
+	height: 120px;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.profile_pic {
+	padding: 0 0 20px 20px;
+}
+
+.content_box2 .profile_pic {
+	padding: 5px 0 20px 20px;
+}
+
+.content_box2 h1 {
+	font-family: 'Cardo', serif;
+	font-size: 120%/*1.2em*/;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 20px 0;
+	white-space: nowrap;
+}
+.content_box2 h1 a:link { color: #880000; text-decoration: none; }
+.content_box2 h1 a:visited { color: #880000; text-decoration: none; }
+.content_box2 h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box2 h1 a:active { color: #880000; text-decoration: none; }
+
+h1 {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+}
+
+.tagline {
+	font-family: "Modern Antiqua";
+	font-size: 1.35em;
+	font-weight: bold;
+	line-height: 1.25em;
+	color: #880000;
+	font-style: italic;
+	letter-spacing: .05em;
+	text-align: center;
+	white-space: nowrap;
+	margin-bottom: 10px;
+}
+
+#distresstarget {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+	color: #494949;
+}
+
+p a:link { color: #880000; text-decoration: none; }
+p a:visited { color: #880000; text-decoration: none; }
+p a:hover { color: #880000; text-decoration: underline; }
+p a:active { color: #880000; text-decoration: none; }
+
+.donate {
+	width: 100px;
+	height: 30px;
+	background-color: #880000;
+	float: left;
+	margin: 10px 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.donate2 {
+	width: 80%;
+	height: 30px;
+	background-color: #880000;
+	float: left;
+	margin: 0 10%;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.donate_button {
+	width: 380px;
+	height: 60px;
+	background-color: #880000;
+	float: left;
+	margin: 10px 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 2.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.donate_button a:link { text-decoration: none; }
+.donate_button a:visited { text-decoration: none; }
+.donate_button a:hover { text-decoration: none; }
+.donate_button a:active { text-decoration: none; }
+
+.download_button {
+	width: 100%;
+	height: 60px;
+	background-color: #880000;
+	float: right;
+	margin: 10px 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 2.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.download_button a:link { text-decoration: none; }
+.download_button a:visited { text-decoration: none; }
+.download_button a:hover { text-decoration: none; }
+.download_button a:active { text-decoration: none; }
+
+.fundraiser {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 0;
+}
+.fundraiser h1 {
+	font-family: 'Cardo',serif;
+	font-size: 0.6em;
+	font-weight: 400;
+	line-height: 0.6em;
+	margin: 0 0 10px 0;
+	color:#880000;
+}
+
+/*viewport full*/
+.footer {
+	width: 1000px;
+	height: 110px;
+	float: left;
+	margin: 20px 0 -50px 20px;
+}
+
+.footercontent {
+	width: 780px;
+	height: 115px;
+	float: left;
+	margin: 0px 0 0 0;
+}
+
+.footer img{
+	border: 0;
+}
+
+.linebreak4 {
+	color: #880000;
+	width: 780px;
+	height: 1px;
+	margin: -12px 0 20px 220px;
+	border-bottom: 1px solid #880000;
+}
+
+.copyright {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 300;
+	margin: 10px 0;
+	color: #494949;
+}
+
+.copyright img {
+	margin: 0 20px 0 0;
+	border: 0px;
+}
+
+/** INSIDE PAGES **/
+
+.title_bar {
+	width: 760px;
+    height: 80px;
+    margin: -5px 0px 10px 0px;
+    background-color: #880000;
+    position: inherit;
+    font-family: 'Cardo', serif;
+    font-size: 2em;
+    line-height: 2.5em;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 0 0 20px;
+}
+
+.title_bar2 {
+	width: 760px;
+	height: 80px;
+	margin: 475px 0 30px 0;
+	background-color: #ffd00c;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	line-height: 2.5em;
+	font-weight: 400;
+	color: #494949;
+	padding: 0 0 0 20px;
+}
+
+.quote img {
+	width: 780px;
+    /* height: 292px; */
+    /* margin: 160px 0 0 0; */
+    position: inherit;
+}
+
+
+h3 {
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #494949;
+}
+
+h3.red {
+	color: #880000;
+}
+
+.name {
+	font-family: 'Cardo', serif;
+	font-size: 1.0em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 10px 0 0 0;
+	color: #494949;
+	text-align: center;
+}
+
+.neco {
+	font-size: .7em;
+	float: left;
+	width: 25%;
+}
+
+.neco img {
+	float:left;
+	margin: 0 10px 20px 0;
+}
+
+.honor {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.honor img {
+	float:left;
+}
+
+.development {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 120px 0 0 0;
+	color: #494949;
+}
+
+.content_box4 {
+	float: left;
+	width: 780px;
+	margin: 160px 0 0 0;
+}
+
+.board {
+	background-color: #e6e5e1;
+	width: 740px;
+	padding: 30px 20px 20px 20px;
+	float: left;
+	margin: 0 0 10px 0;
+	font-size: .9em;
+}
+
+.board p {
+	font-size: .9em;
+	line-height: 2.2em;
+}
+
+.board .affiliation p {
+	font-size: .9em;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+}
+
+.board2 {
+	background-color: #e6e5e1;
+	width: 340px;
+	padding: 20px;
+	float: right;
+	margin: 0 0 20px 0;
+	background-image:url(http://www.macedonianarts.org/images/2012b.jpg);
+	}
+
+.board2 p {
+	font-size: .8em;
+	line-height: 2.2em;
+}
+
+
+
+.donate_box {
+	background-color: #e6e5e1;
+	width: 340px;
+	padding: 20px;
+	float: right;
+	margin: 20px 0 20px 0;
+}
+
+.donate_box p {
+	font-size: .8em;
+	line-height: 2.2em;
+}
+
+.quotes {
+	background-color: #ffd00c;
+	width: 92.5%;
+	height: auto;
+	padding: 20px 20px 20px 20px;
+	float: right;
+	margin: 0 0 0 0;
+	font-family: 'Cardo', serif;
+	font-size: .9em;
+	line-height: 1.25em;
+	font-weight: 400;
+	color: #494949;
+	text-align: justify;
+}
+
+.press {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+	color: #494949;
+}
+.press a:link { color: #880000; text-decoration: none; }
+.press a:visited { color: #880000; text-decoration: none; }
+.press a:hover { color: #880000; text-decoration: underline; }
+.press a:active { color: #880000; text-decoration: none; }
+
+.press2 {
+	font-size: .8em;
+}
+
+.projectsevents { /*margin: 160px 0 0 0;*/ }
+
+.event {
+	width: 100%;
+	/* float: left; */
+}
+
+.year_box {
+	float: left;
+	width: 120px;
+	height: 410px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+}
+.year_box:hover { background-color: #deddd9; text-decoration: none; }
+
+/*.year_boxSHORT {
+	float: left;
+	width: 120px;
+	height: 200px;
+	/**height: 350px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+}**/
+.year_boxSHORT:hover { background-color: #deddd9; text-decoration: none; }
+
+.year_boxSHORT2 {
+	float: left;
+	width: 450px;
+	height: 325px;
+	/**height: 350px;**/
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+	border-radius: 8px
+}
+.year_boxSHORT2:hover { background-color: #deddd9; text-decoration: none; }
+
+.year_boxSHORT3 {
+	float: left;
+	width: 270px;
+	height: 80px;
+	/**height: 350px;**/
+	background: #e6e5e1;
+	margin: 0 0 0px 0px;
+	padding: 10px;
+	border-radius: 25px;
+}
+.year_boxSHORT3:hover { background-color: #deddd9; text-decoration: none; }
+
+.year_boxSHORT3-5 {
+	float: left;
+	width: 270px;
+	height: 215px;
+	/**height: 350px;**/
+	background: #e6e5e1;
+	margin: 10px 0 20px 0px;
+	padding: 10px;
+	border-radius: 8px;
+}
+/*.year_boxSHORT3-5:hover { background-color: #deddd9; text-decoration: none; }*/
+
+
+
+
+.year_boxSHORT4 {
+	float: left;
+	width: 230px;
+	height: 200px;
+	/**height: 350px;**/
+	background: #e6e5e1;
+	margin: 10px 2.5px 2% 2.5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.year_boxSHORT4:hover { background-color: #deddd9; text-decoration: none; }
+
+.boxshort4move {
+	margin-left: 7.5px;
+}
+
+
+.year_year {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.year_year2 {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 2px 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.partings2013 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.whispers2015 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 22px 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.premiere2016 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.trio2008 {
+	font-family: 'Cardo', serif;
+	font-size: 0.82em;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 0 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.gala2004 {
+	font-family: 'Cardo', serif;
+	font-size: 1.0em;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 0 0 0 0;
+	color: #880000;
+	text-align: center;
+}
+
+.year_event {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: .8em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+.year_event a:link { color: #880000; text-decoration: none; }
+.year_event a:visited { color: #880000; text-decoration: none; }
+.year_event a:hover { color: #880000; text-decoration: underline; }
+.year_event a:active { color: #880000; text-decoration: none; }
+
+.year_more {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 10px 0 0 0;
+}
+
+.year_linebreak {
+/*	background-image: url(http://www.macedonianarts.org/images/dash.png); */
+	width: 120px;
+	height: 1px;
+	margin: 5px 0 10px 0;
+}
+
+.address {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.6em;
+	color: #494949;
+	margin: -10px 0 0 0;
+	text-align: justify;
+}
+
+.address a:link { color: #880000; text-decoration: none; }
+.address a:visited { color: #880000; text-decoration: none; }
+.address a:hover { color: #880000; text-decoration: underline; }
+.address a:active { color: #880000; text-decoration: none; }
+
+.address1 {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.6em;
+	color: #494949;
+	margin: -10px 0 0 5px;
+	text-align: justify;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+
+.address1 a:link { color: #880000; text-decoration: none; }
+.address1 a:visited { color: #880000; text-decoration: none; }
+.address1 a:hover { color: #880000; text-decoration: underline; }
+.address1 a:active { color: #880000; text-decoration: none; }
+
+.address_title {
+	font-family: 'Cardo', serif;
+	font-size: 1.8em;
+	font-weight: 400;
+	line-height: 1em;
+	color: #880000;
+}
+
+.contact_title {
+	font-family: 'Cardo', serif;
+	font-size: 1.8em;
+	font-weight: 400;
+	line-height: 1em;
+	color: #880000;
+	margin: 0 0 20px 0;
+}
+
+.donate_quote {
+	font-family: 'Cardo', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #880000;
+	height: 100px;
+}
+
+.donate_quote2 {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #880000;
+	float: right;
+}
+
+.jfk_quote {
+	background-color: #e6e5e1;
+	padding: 20px;
+	font-family: 'Cardo', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #880000;
+	text-align: justify;
+	height: 120px;
+}
+
+.jfk_quote2 {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #880000;
+	float: right;
+}
+
+.universities { float: none; margin: 10px 0 0 0; }
+
+/* Creates a column layout for the Board of Directors */
+
+ul.img_boardofdirectors, ul.directors {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    /* display: block; */
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	/*-webkit-padding-start: 40px;*/
+	-webkit-padding-start: 0px;
+}
+
+/*** 11.0 Media Queries ***/
+@-ms-viewport { width: device-width; }
+
+@viewport { width: device-width; }
+
+@media screen and (max-width: 640px) {
+
+#auction-nudge-items div.an-item div.an-view{overflow:hidden;min-width:85px;margin-left: 26px;}
+
+
+.lullabies_1994 {
+	margin: 12px 0 0 0;
+}
+
+.lullabiestitle_1994 {
+	font-size:.86em;
+}
+
+.as_2002 {
+	line-height: 1.6em;
+}
+
+.virtual_2002 {
+	margin: 32px 0 0 0;
+	font-size: 1em;
+}
+
+.tourtitle_2002 {
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+}
+
+.theprogram_2003 {
+	margin: 35px 0 0 0;
+	padding: 0;
+}
+
+.ilinden_2003 {
+	font-size: 0.9em;
+}
+
+.tba {
+	font-size: 0.78	em;
+}
+
+.post {
+	font-size: 0.7em;
+	font-family: 'Cardo', serif;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 3px 0 0 0;
+	color: #880000;
+	text-align: center;
+
+}
+.neco_2004 {
+	margin: 49px 0 0 0;
+}
+
+.thelecture_2005 {
+	margin: 42px 0 0 0;
+}
+
+.neco_2004 {
+	font-size: .72em;
+}
+
+.theceremony_2006 {
+	margin: 42px 0 0 0;
+	font-size: 0.81em;
+}
+
+.ceremonytitle_2006 {
+	font-size: 0.89em;
+	padding: 0 0 3px 0;
+}
+
+.necotitle_2004 {
+	font-size: 0.89em;
+	padding-bottom: 3px;
+}
+
+.wikititle_2007 {
+	font-size: 0.89em;
+	padding-bottom: 3px;
+}
+
+.wiki_2007 {
+	margin: 42px 0 0 0;
+	font-size: 0.77em;
+}
+
+.art_2008 {
+	font-size:.79em;
+}
+
+.monument_2006 {
+	font-size:.83em;
+}
+
+.gala_2004 {
+	font-size:0.9em;
+}
+
+.theconcert_2008 {
+	margin: 42px 0 0 0;
+}
+
+.art_2009 {
+	font-size: .79em;
+}
+
+.collection_2010 {
+	font-size: .78em;
+}
+
+.thecollection_2012 {
+	margin: 0 0 0 0;
+}
+
+.collectiontitle_2012 {
+	font-size: .79em;
+}
+
+.world_2015 {
+	font-size: 1em;
+}
+
+.moviepremiere_2015 {
+	margin: 40px 0 0 0;
+}
+
+.folk_2017 {
+	margin: 40px 0 0 0;
+}
+
+.folktitle_2017 {
+	font-size: .75em;
+}
+
+
+
+/* * {
+	margin: 0 auto;
+	padding: 0;
+} */
+
+body {
+	/* margin: 0 auto; */
+	/* padding: 0px; */
+	/* background-color:#fff; */
+	/* background-image: none; */
+}
+
+.content {
+	width: 100%;
+	margin: 40px auto 0;
+}
+
+.left_column {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	border: 1px #000 solid;
+}
+
+.logo {
+	background-image: url(http://www.macedonianarts.org/images/logo_mobile.png);
+	background-size: 280px 81px;
+	width: 100%;
+	height: 81px;
+	margin: 0 0 20px 0;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+/*viewport 3rd*/
+.links2 {
+	padding: 20px 0 20px;
+	width: 100%;
+	background-color: #ffd00c;
+	float: none;
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+
+.links2 ul li { list-style-type: none; font-family: 'Lato', Arial, sans-serif;
+	color: #494949; font-size: .9em; weight: 400; line-height: 2em; text-transform: uppercase; display: block; }
+.links2 li a:link { color: #494949; text-decoration: none; }
+.links2 li a:visited { color: #494949; text-decoration: none; }
+.links2 li a:hover { color: #494949; text-decoration: underline; }
+.links2 li a:active { color: #494949; text-decoration: none; }
+
+.mailing_list_desktop {
+	width: 180px;
+	float: left;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #494949;
+	font-size: .85em;
+	weight: 400;
+	line-height: 2em;
+	DISPLAY: NONE;
+}
+
+input {
+	width:188px;
+	height: 40px;
+	padding: 0 0 0 10px;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #c6c7c7;
+	font-size: .9em;
+	weight: 400;
+	line-height: 2em;
+}
+
+input[type=submit] {
+	width: 95px;
+	height: 40px;
+	background-color: #880000;
+	float: right;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	margin: -20px 0 0 0;
+}
+
+.linebreak {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 30px 0 30px 0;
+	float:none;
+}
+
+.left_column .linebreak {
+	DISPLAY: NONE;
+}
+
+.social_desktop {
+	width: 200px;
+	float: left;
+	DISPLAY: none;
+}
+
+.social_desktop img {
+	margin: 0 4px 0 0;
+}
+
+.mailing_list_tablet { display: none; }
+
+.social_tablet { display: none; }
+
+.social_tablet img { display: none; }
+
+.right_column {
+	width: 100%;
+	float: none;
+	margin: 0 0 0 0;
+	/* background-image: url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+}
+
+.right_column_content {
+	margin: 120px 0 0 0;
+}
+
+.right_column_content2 {
+	margin: 530px 0 0 0;
+}
+
+.tagline {
+	font-family: "Modern Antiqua";
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.25em;
+	color: #880000;
+	font-style: italic;
+	letter-spacing: .05em;
+	text-align: center;
+	margin: 0 0 0 0;
+	white-space: nowrap;
+    white-space: pre-line;
+}
+
+.mission {
+	width: 90%;
+	height: initial;
+	margin: 20px 0 0 0;
+	background-color: #880000;
+	position: static;
+	font-family: 'Cardo', serif;
+	font-size: 1.15em;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: #fff;
+	padding: 50px 5% 40px;
+	text-align: justify;
+}
+
+#mission img { max-width: 100%; height: auto; }
+
+
+.mac {
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: justify;
+}
+
+.slideshow {
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.linebreak2 {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 20px 0 20px 0;
+}
+
+.content_boxMAC {
+	float: none;
+	width: 80%;
+	margin: 30px 0 0px 5%;
+	text-align: justify;
+	padding: 5%;
+}
+
+.content_boxAB {
+	float: none;
+	width: 90%;
+	margin: 0px 0 0 5%;
+	text-align: justify;
+}
+
+/*first mobile*/
+.content_boxMAC {
+	float: left;
+	width: 80%;
+	margin: 20px 3% 10px 5%;
+	padding-bottom: 0%;
+}
+
+.boardAB {
+	float: left;
+	width: 78%;
+	margin: 0px 0 20px 2px;
+	padding: 20px 20px 37px 20px;
+}
+
+.content_boxBID {
+	float: none;
+	width: 90%;
+	margin: 0px 0 0 5%;
+	text-align: justify;
+}
+
+.content_box99,
+.content_box_sc{
+	float: none;
+	width: 90%;
+	margin: 30px 0 0 5%;
+	text-align: justify;
+}
+
+.content_boxAUCTION {
+	float: none;
+	width: 89%;
+	margin: 30px 0 0 5%;
+	text-align: justify;
+	overflow: hidden;
+}
+
+/*.content_box2 {
+	float: none;
+	width: 50%;
+	margin: 30px 0 15px 0;
+	text-align: justify;
+	overflow:auto;
+}*/
+
+.content_box1b {
+	float: none;
+	width: 90%;
+	margin: 30px 0 0 0;
+	text-align: justify;
+}
+
+.content_box2b {
+	float: none;
+	width: 90%;
+	margin: 30px 0 0 5%;
+	text-align: justify;
+}
+
+.content_box2 input {
+	width:171px;
+	float: right;
+}
+
+.donate_box {
+	float: none;
+	width: 80%;
+	margin: 30px 0 0 5%;
+	text-align: justify;
+	padding: 5%;
+}
+
+.form_box {
+	float: none;
+	width: 90%;
+	margin: 30px 3% 0;
+}
+.message {
+	height:196px;
+	background-image:url(http://www.macedonianarts.org/images/message_bg.jpg);
+	background-color:transparent;
+}
+
+.content_box2 .submit {
+	float: right;
+	width: 171px;
+}
+
+.media_box {
+	background-color: #e6e5e1;
+	width: 100%;
+	height: 125px;
+	padding: 0;
+	float: none;
+}
+
+.profile_pic {
+	padding: 0 0 20px 20px;
+	float: right;
+}
+
+.content_box2 .profile_pic {
+	padding: 5px 0 20px 20px;
+}
+
+.content_box2 h1 {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 20px 0;
+	white-space: nowrap;
+}
+.content_box2 h1 a:link { color: #880000; text-decoration: none; }
+.content_box2 h1 a:visited { color: #880000; text-decoration: none; }
+.content_box2 h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box2 h1 a:active { color: #880000; text-decoration: none; }
+
+/*.event {
+    margin-bottom: 30px;
+}*/
+.content_box1 h1,
+.content_box_sc h1{
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 20px 0;
+	color: #880000;
+}
+
+
+.content_box1 h1 a:link { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:link { color: #880000; text-decoration: none; }
+.content_box1 h1 a:visited { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:visited { color: #880000; text-decoration: none; }
+.content_box1 h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box_sc h1 a:hover { color: #880000; text-decoration: underline; }
+.content_box1 h1 a:active { color: #880000; text-decoration: none; }
+.content_box_sc h1 a:active { color: #880000; text-decoration: none; }
+
+
+h1 {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+}
+
+p {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+	color: #494949;
+}
+p a:link { color: #880000; text-decoration: none; }
+p a:visited { color: #880000; text-decoration: none; }
+p a:hover { color: #880000; text-decoration: underline; }
+p a:active { color: #880000; text-decoration: none; }
+
+.donate {
+	width: 100px;
+	height: 30px;
+	background-color: #880000;
+	float: left;
+	margin: 10px 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	float: left;
+	margin: 0 0 0 0;
+	/* background-image: url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+}
+
+.footer img {
+	margin: 0 0px 0 10px;
+	border: 0;
+	DISPLAY: NONE;
+}
+
+.linebreak4 {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 30px 0 30px 0;
+}
+
+.copyright {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 300;
+	margin: 20px 0 0 3%;
+	color: #494949;
+}
+
+.copyright img {
+	margin: 0 20px 0 0;
+	border: 0px;
+}
+
+/** INSIDE PAGES **/
+
+.title_bar {
+	width: 100%;
+	height: 80px;
+	margin: 20px 0 30px 0;
+	background-color: #880000;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	line-height: 2.5em;
+	font-weight: 400;
+	color: #fff;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.stoyan_title {
+	font-size: .9em;
+	line-height: 1.2em;
+	margin: 10px 0 0 0;
+}
+
+.title_bar2 {
+	width: 100%;
+	height: 80px;
+	margin: 400px 0 20px 0;
+	background-color: #ffd00c;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	line-height: 2.5em;
+	font-weight: 400;
+	color: #494949;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.title_bar3 {
+	width: 100%;
+	height: 100px;
+	margin: 20px 0 30px 0;
+	background-color: #880000;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	line-height: 1.25em;
+	font-weight: 400;
+	color: #fff;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.quote img {
+	width: 100%;
+	height: auto;
+	margin: 100px 0 0 0;
+}
+
+.content_box3 {
+	float: none;
+	width: 90%;
+	margin: 30px 0 0 5%;
+	text-align: justify;
+	overflow:auto;
+}
+
+
+h3 {
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #494949;
+}
+
+h3.red {
+	color: #880000;
+}
+
+.name {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #494949;
+}
+
+.development {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 120px 0 0 0;
+	color: #494949;
+}
+
+.content_box4 {
+	float: none;
+	width: 90%;
+	margin: 160px 0 0 5%;
+}
+
+.boardAB {
+	background-color: #e6e5e1;
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	float: right;
+	margin: 20px 0 20px 0;
+}
+
+.board {
+	background-color: #e6e5e1;
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	float: right;
+	margin: 20px 0 20px 0;
+}
+
+.board p {
+	font-size: .75em;
+	line-height: 2.2em;
+}
+
+/*.quotes {
+	background-color: #ffd00c;
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	float: none;
+	margin: 20px 0 0;
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	line-height: 1.25em;
+	font-weight: 400;
+	color: #494949;
+	text-align: justify;
+}*/
+
+.press {
+	width: 90%;
+	padding: 0 5%;
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+	color: #494949;
+}
+.press a:link { color: #880000; text-decoration: none; }
+.press a:visited { color: #880000; text-decoration: none; }
+.press a:hover { color: #880000; text-decoration: underline; }
+.press a:active { color: #880000; text-decoration: none; }
+
+.press2 {
+	font-size: .8em;
+}
+
+.press img { width: 100%; }
+
+.universities { float: none; width:90%; margin: 0 auto;}
+.universities img { width:100%; }
+
+.jfk_quote {
+	background-color: #e6e5e1;
+	padding: 20px;
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.4em;
+	color: #880000;
+	text-align: justify;
+	height: 180px;
+}
+
+.jfk_quote2 {
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #880000;
+	float: right;
+}
+
+.endowment_modules img {width: 100%;}
+
+.projectsevents {
+	float: none;
+	width: 94%;
+	margin: 120px auto 0;
+}
+
+.event {
+	width: 100%;
+	/* float: left; */
+	/* background-image:url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+
+}
+
+.year_box {
+	float: left;
+	width: 40%;
+	height: 350px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+	text-align: center;
+	clear: right;
+}
+.year_box:hover { background-color: #deddd9; text-decoration: none; }
+
+/*.year_boxSHORT {
+	float: left;
+	width: 40%;
+	height: 200px;
+	/**height: 350px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+	text-align: center;
+	clear: right;
+}**/
+.year_boxSHORT:hover { background-color: #deddd9; text-decoration: none; }
+
+.year_year {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.partings2013 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.whispers2015 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 21px 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.premiere2016 {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+.trio2008 {
+	font-family: 'Cardo', serif;
+	font-size: 0.72em;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin: 0 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.gala2004 {
+	font-family: 'Cardo', serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.year_event {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: .9em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 0 0 10px 0;
+}
+
+.year_more {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 10px 0 0 0;
+}
+
+.year_linebreak {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 95%;
+	height: 1px;
+	margin: 10px 0 10px 0;
+}
+
+.address {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.6em;
+	color: #494949;
+	margin: -10px 0 0 0;
+	text-align: justify;
+}
+
+.address a:link { color: #880000; text-decoration: none; }
+.address a:visited { color: #880000; text-decoration: none; }
+.address a:hover { color: #880000; text-decoration: underline; }
+.address a:active { color: #880000; text-decoration: none; }
+
+.address_title {
+	font-family: 'Cardo', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1em;
+	color: #880000;
+}
+
+.contact_title {
+	font-family: 'Cardo', serif;
+	font-size: 1.8em;
+	font-weight: 400;
+	line-height: 1em;
+	color: #880000;
+	margin: 0 0 20px 0;
+}
+
+.donate_quote {
+	font-family: 'Cardo', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #880000;
+}
+
+.donate_quote2 {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #880000;
+	float: right;
+}
+
+.donate_button {
+	width: 90%;
+	height: 60px;
+	background-color: #880000;
+	float: none;
+	margin: 10px 0 0 5%;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 2.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*.download_button {
+	width: 90%;
+	height: 60px;
+	background-color: #880000;
+	float: none;
+	margin: 10px 0 20px 5%;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 2.9em;
+	font-weight: 400;
+	text-align: center;
+}*/
+
+.cm img { width: 100%; }
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+	.mac {
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: justify;
+}
+
+.lullabies_1994 {
+	margin: 14px 0 0 0;
+}
+
+.lullabiestitle_1994 {
+	font-size:.8em;
+}
+
+.as_2002 {
+	font-size:8px;
+	line-height: 1.6em;
+}
+
+.virtual_2002 {
+	margin: 32px 0 0 0;
+	font-size: .8em;
+}
+
+.tourtitle_2002 {
+	margin: 0 0 13px 0;
+}
+
+.theprogram_2003 {
+	margin: 42px 0 0 0;
+}
+
+.ilinden_2003 {
+	font-size: .8em;
+}
+
+.tba {
+	font-size: 0.75em;
+	color: #880000;
+}
+
+.post {
+	font-size: 0.9em;
+	color: #880000;
+	font-family: 'Cardo', serif;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 0 0 0 0;
+	text-align: center;
+
+}
+
+.neco_2004 {
+	margin: 55px 0 0 0;
+}
+
+.thelecture_2005 {
+	margin: 42px 0 0 0;
+}
+
+.neco_2004 {
+	font-size: .7em;
+}
+
+.theceremony_2006 {
+	margin: 42px 0 0 0;
+	font-size: 1em;
+}
+
+.ceremonytitle_2006 {
+	font-size: .74em;
+}
+
+.necotitle_2004 {
+	font-size:.78em;
+}
+
+.wikititle_2007 {
+	font-size:.78em;
+}
+
+.wiki_2007 {
+	margin: 42px 0 0 0;
+	font-size: .83em;
+}
+
+.monument_2006 {
+	font-size: .85em;
+}
+.art_2008 {
+font-size: .8em;
+}
+
+.theconcert_2008 {
+	margin: 42px 0 0 0;
+}
+
+.art_2009 {
+	font-size: .8em;
+}
+
+.collection_2010 {
+	font-size: .8em;
+}
+
+.thecollection_2012 {
+	margin: 0 0 0 0;
+}
+
+.collectiontitle_2012 {
+	font-size: .85em;
+}
+
+.world_2015 {
+	font-size: .9em;
+}
+
+.moviepremiere_2015 {
+	margin: 55px 0 0 0;
+}
+
+.folk_2017 {
+	margin: 55px 0 0 0;
+}
+
+.folktitle_2017 {
+	font-size: .65em;
+}
+
+body {
+	/* background-color:#fff; */
+	/* background-image: none; */
+}
+
+.content {
+	width: 100%;
+	margin: 30px auto 0;
+}
+
+.left_column {
+	float: none;
+	width: 100%;
+
+}
+
+.logo {
+	background-image: url(http://www.macedonianarts.org/images/logo_mobile.png);
+	background-size: 280px 81px;
+	width: 100%;
+	height: 81px;
+	margin: 0px 0 20px 20px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.links1 {
+	padding: 10px 0px;
+	width: 100%;
+	height: 350px;
+	background-color: white;
+	float:left;
+	margin: 0 0 -190px 0;
+}
+
+.links1 ul li {
+	float: left;
+}
+
+.albumandcaption1 {
+	margin-left: 30px;
+	margin-top: -20px;
+}
+
+.albumandcaption2 {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.albumandcaption3 {
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+#caption {
+	margin-left: -15px;
+	margin-top: 60px;
+}
+
+/*viewport half*/
+.links2 {
+	padding: 10px 0;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	float:none;
+}
+
+.links2 ul li {
+	text-align: center;
+	list-style-type: none;
+	font-size: .9em;
+	weight: 400;
+	line-height: 2.2em;
+	display: inline;
+	float: none;
+	margin: 0 1.25%;
+	width: 100%;
+	}
+.links2 li a:link { color: #494949; text-decoration: none; }
+.links2 li a:visited { color: #494949; text-decoration: none; }
+.links2 li a:hover { color: #494949; text-decoration: underline; }
+.links2 li a:active { color: #494949; text-decoration: none; }
+
+.mailing_list_desktop { display: none; }
+
+.linebreak { display: none; }
+
+.social_desktop { display: none; }
+
+.mailing_list_tablet { display: none; }
+
+.social_tablet { display: none; }
+
+.social_tablet img { display: none; }
+
+.right_column {
+	width: 100%;
+	float: left;
+	margin: 0;
+	/* background-image: url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+}
+
+.right_column_content2 {
+	margin: 625px 0 0 0;
+}
+
+/*.mission {
+	width: 38%;
+	height: 0;
+	padding: 40px 4% 39.8%;
+	margin: 0px 3% 0;
+	background-color: #880000;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	color: #fff;
+}
+
+.mission img {
+	max-width: 100%;
+	height: auto;
+}*/
+
+.slideshow {
+	width: 45%;
+	margin: 20px 0 0 52%;
+}
+
+.linebreak2 {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 20px 0 20px 0;
+}
+
+.content_boxAB {
+	float: left;
+	width: 31%;
+	margin: 20px 0 0 0;
+}
+
+.boardAB {
+	float: left;
+	width: 76%;
+	margin: 0px 0 20px 2px;
+	padding: 20px 20px 40px 20px;
+}
+
+.content_boxBID {
+	float: left;
+	width: 48%;
+	margin: 10px 0px 0 3%;
+	padding: 0 7px 9px 0;
+}
+
+/*viewport half*/
+.content_box1 {
+	float: left;
+	width: 430px;
+	margin: 30px 0px 15px 30px;
+}
+
+.content_box_sc {
+    float: left;
+    width: 27%;
+    margin: 20px 3% 0;
+
+}
+
+.content_boxAUCTION {
+	float: left;
+	width: 42%;
+	margin: 10px 2% 0px 2%;
+}
+
+/*viewport half*/
+/*.content_box2 {
+	float: left;
+	width: 415px;
+	margin: 30px 0 15px 30px;
+}*/
+
+.content_box1b {
+	float: left;
+	width: 44%;
+	margin: 30px 0% 0;
+}
+
+.content_box2b {
+	float: left;
+	width: 44%;
+	margin: 30px 3% 0;
+}
+
+.donate_box {
+	float:  ;
+	width: 44%;
+	margin: 30px 3% 0;
+}
+
+.media_box {
+	background-color: #e6e5e1;
+	width: 100%;
+	height: 125px;
+	padding: 0;
+	float: left;
+}
+
+.content_box2 img {
+	/* padding: 5px 0 20px 20px; */
+}
+
+.board {
+	float: left;
+	width: 90%;
+	margin: 0 0 10px 0px;
+}
+
+.form_box {
+	float: left;
+	width: 44%;
+	margin: 30px 3% 0;
+}
+
+.content_box3 {
+	float: none;
+	width: 94%;
+	margin: 30px auto 0;
+	overflow: hidden;
+}
+
+.content_box3 img {
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+}
+
+/*viewport half*/
+.tagline {
+	font-family: "Modern Antiqua";
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.25em;
+	color: #880000;
+	font-style: italic;
+	letter-spacing: .05em;
+	text-align: center;
+	white-space: nowrap;
+	margin-bottom: 10px;
+}
+
+
+p {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	line-height: 1.4em;
+	margin: 0 0 20px 0;
+	color: #494949;
+}
+p a:link { color: #880000; text-decoration: none; }
+p a:visited { color: #880000; text-decoration: none; }
+p a:hover { color: #880000; text-decoration: underline; }
+p a:active { color: #880000; text-decoration: none; }
+
+.learn_more {
+	width: 100px;
+	height: 30px;
+	background-color: #880000;
+	float: left;
+	margin: 10px 0 0 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.9em;
+	font-weight: 400;
+	padding: 0 0 0 20px;
+}
+
+
+.linebreak4 {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 30px 0 20px 0;
+}
+
+.ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© img {
+	width: ;
+	float: left;
+	margin: 40px 0 0 0;
+}
+
+.copyright {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 300;
+	margin: 0px 0 0px 0px;
+	color: #494949;
+}
+
+.copyright img {
+	margin: 0 20px 0 0;
+	border: 0px;
+}
+
+
+/** INSIDE PAGES **/
+
+.title_bar {
+	width: 94%;
+	margin: 20px 3% 30px;
+	position: absolute;
+	padding: 0;
+	text-align: center;
+	float: none;
+}
+
+.title_bar2 {
+	width: 94%;
+	margin: 430px 3% 30px;
+	position: absolute;
+	padding: 0;
+	text-align: center;
+	float: none;
+}
+
+.quote img {
+	width: 94%;
+	height: auto;
+	margin: 120px 3% 0;
+}
+
+
+
+/*.projectsevents {
+	float: none;
+	width: 94%;
+	margin: 120px auto 0;
+}*/
+
+
+.event {
+	float: none;
+	width: 100%;
+	margin: 30px auto 0;
+    margin-top: 140px;
+}
+
+.year_box {
+	float: left;
+	width: 20%;
+	height: 460px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+	text-align: center;
+	clear: right;
+}
+.year_box:hover { background-color: #deddd9; text-decoration: none; }
+
+/*.year_boxSHORT {
+	float: left;
+	width: 20%;
+	height: 200px;
+	/**height: 350px;
+	background: #e6e5e1;
+	margin: 0 1% 2%;
+	padding: 10px;
+	text-align: center;
+	clear: right;
+}**/
+
+.year_boxSHORT:hover { background-color: #deddd9; text-decoration: none; }
+
+.year_year {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0px 0 10px 0;
+	color: #880000;
+	text-align: center;
+}
+
+.partings2013 {
+	margin: 0 0 0 0;
+	font-size: 1em;
+	text-align:center;
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	color: #880000;
+}
+
+.whispers2015 {
+	margin: 22px 0 0 0;
+	font-size: 1em;
+	text-align:center;
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	color: #880000;
+}
+
+.premiere2016 {
+	margin: 0 0 0 0;
+	font-size: 1em;
+	text-align:center;
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.25em;
+	color: #880000;
+}
+
+.trio2008 {
+	margin: 0 0 0 0;
+	text-align:center;
+	font-family: 'Cardo', serif;
+	font-size: 0.76em;
+	font-weight: 400;
+	line-height: 1.25em;
+	color: #880000;
+}
+
+.gala2004 {
+	margin: 0 0 0 0;
+	text-align:center;
+	font-family: 'Cardo', serif;
+	font-size: 0.92em;
+	font-weight: 400;
+	line-height: 1.25em;
+	color: #880000;
+}
+
+.year_event {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 0 0 10px 0;
+}
+
+.year_more {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #880000;
+	margin: 10px 0 0 0;
+}
+
+.year_linebreak {
+	background-image: url(http://www.macedonianarts.org/images/dash.png);
+	width: 100%;
+	height: 1px;
+	margin: 10px 0 10px 0;
+}
+
+.press {
+	width: 90%;
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin: 0 5% 20px;
+	color: #494949;
+}
+.press a:link { color: #880000; text-decoration: none; }
+.press a:visited { color: #880000; text-decoration: none; }
+.press a:hover { color: #880000; text-decoration: underline; }
+.press a:active { color: #880000; text-decoration: none; }
+
+.press2 {
+	font-size: .8em;
+}
+
+.press img { width: 100%; }
+
+.universities { float: none; width:94%; margin: 0 auto;}
+.universities img { width:100%; }
+
+
+
+.jfk_quote {
+	background-color: #e6e5e1;
+	padding: 20px;
+	font-family: 'Cardo', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #880000;
+	text-align: justify;
+	height: 120px;
+}
+
+.jfk_quote2 {
+	font-family: 'Cardo', serif;
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #880000;
+	float: right;
+}
+
+/*.quotes {
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	float: none;
+	margin: 20px 0 0;
+
+}*/
+
+.endowment_modules img {width: 100%; padding: 0; }
+
+.endowment_modules .content_box{
+	width: 44%;
+	margin: 30px 3% 0 0;
+	clear: left; }
+
+	.donate_button { width: auto; }
+
+/*.download_button { width: auto; }*/
+
+.img_boardofdirectors {
+  padding: 0;
+ /* padding-left: -20%;*/
+  margin: 0 0 0 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: clear;
+  padding: 5px 5px 5px 5px;
+  width: 180px;
+  /* width: 200px; /*-------/EDIT BY: SMARQUINA ON 2017.01.25 to allow 4 images to exist in a single row on ABOUT US page/-----------------* */
+  height: 280px;
+  margin-top: 10px;
+  text-align:center
+}
+
+.directors {
+  padding: 0;
+  margin: 0 0 0 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item-directors {
+  background: clear;
+  padding: 5px 5px 5px 5px;
+  width: 176px;
+  height: 230px;
+  margin-top: 10px;
+  text-align:center
+}
+
+h4 {
+	font-family: 'Cardo', serif;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #494949;
+}
+
+.nameAB {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin: 0 0 10px 0;
+	color: #494949;
+	text-align: center;
+}
+
+}
+@media screen and (max-width: 1024px) and (min-width: 641px) and (orientation:portrait) {
+.boardAB {width: 88%;margin: 0 0 0 0;padding: 20px 20px 20px 20px;}
+
+.content_boxMAC {
+	float: left;
+	width: 89%;
+	margin: 20px 3% 6px 3%;
+}
+
+.neco_2004 {
+	margin: 56px 0 0 0;
+}
+.footer {
+	width: 94%;
+	height: 150px;
+	float: left;
+	margin: 40px 0 0 3%;
+	/* background-image: url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+}
+
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 641px) and (orientation:landscape) {
+.boardAB {width: 91%;padding: 20px 20px 5px 20px;margin: 0px 0 0px 0px;}
+
+.content_boxMAC {
+	padding-bottom:16px;
+}
+
+.content_boxAB {
+	float: left;
+	width: 28%;
+	margin: 20px 0 0 0;
+}
+
+.content_boxMAC {
+	float: left;
+	width: 90%;
+	margin: 20px 3% 6px 3%;
+}
+
+.neco_2004 {
+	margin: 56px 0 0 0;
+}
+.footer {
+	width: 94%;
+	height: 165px;
+	float: left;
+	margin: 10px 0 0 3%;
+	/* background-image: url(http://www.macedonianarts.org/images/bg_mobile.jpg); */
+}
+
+
+}
+
+
+/**
+ *
+ * Auction Nudge
+ * https://www.auctionnudge.com
+ *
+ * By Joseph Hawes
+ * http://www.josephhawes.co.uk
+ *
+ */
+.self-clear,.an-page-wrap{overflow:hidden}* html .self-clear,
+* html .an-page-wrap{height:1%}
+.auction-nudge a
+img{border:none}
+.auction-nudge li,
+.auction-nudge
+a{text-decoration:none;border:none; color: #880000;}.
+auction-nudge th,
+.auction-nudge
+td{padding:3px}
+.auction-nudge
+td{text-align:left; color: black;}
+.auction-nudge img#an-ebay-logo{margin:0 10px 10px 0;width:100px;border:none;}
+#auction-nudge-items ul.an-page-wrap{margin:0;padding:8px;list-style-type:none;background:#f5f5f5}
+#auction-nudge-items ul#an-page-top{margin-bottom:10px}
+#auction-nudge-items ul#an-page-top.an-loading{background-image:url(//assets-auctionnudge.s3.amazonaws.com/images/theme/an-page-loading.gif);background-position:center center;background-repeat:no-repeat}
+#auction-nudge-items ul#an-page-bot{margin:10px
+0 8px 0}
+#auction-nudge-items ul.an-page-wrap
+li{margin:0;padding:0;cursor:pointer;list-style-type:none;background:transparent}
+#auction-nudge-items ul.an-page-wrap li:hover{text-decoration:underline}
+#auction-nudge-items ul.an-page-wrap li.an-inactive{opacity:0.2;cursor:not-allowed;text-decoration:none}
+#auction-nudge-items li.an-page-prev{float:left}
+#auction-nudge-items li.an-page-next{float:right}
+#auction-nudge-items .image-container{display:block;width:200px;height:200px;overflow:hidden;text-align:center;padding-top:15px;}
+#auction-nudge-items .image-container
+img{max-width:100%;max-height:100%}
+#auction-nudge-items.an-img-size table th,
+#auction-nudge-items.an-img-size table
+td{vertical-align:middle;font-family: Cardo, Serif;}
+#auction-nudge-items.an-img-size
+.image-container{display:table;margin:0 auto}
+#auction-nudge-items.an-img-size
+.image-container
+a{display:table-cell;vertical-align:middle;margin:0;padding:0;line-height:0;text-align:center}
+#auction-nudge-items.an-img-size .image-container
+img{margin:0;padding:0}
+#auction-nudge-items #an-cats-wrap{margin-bottom:10px}
+#auction-nudge-items #an-item-wrap{overflow:hidden}
+#auction-nudge-items div.an-item{float:left;margin:0;padding:3% 3% 0 3%;max-width: 385px;text-align:left;}
+#auction-nudge-items div.an-item div.an-title{margin-bottom:7px;font-weight:bold;}
+#auction-nudge-items div.an-item div.an-wrap{overflow:hidden}
+#auction-nudge-items div.an-item div.an-image{float:left;margin:0 10px 0 0}
+#auction-nudge-items div.an-item div.an-price{overflow:hidden;min-width:85px;margin-top: 65px;margin-left: 26px;}
+#auction-nudge-items div.an-item div.an-price .an-amount{display:block;float:left;margin-right:4px;font-weight:bold}
+#auction-nudge-items div.an-item div.an-ends{overflow:hidden;min-width:85px;margin-left: 25px;}
+#auction-nudge-items div.an-item div.an-ends .an-label{display:block;float:left;margin-right:4px}
+#auction-nudge-items div.an-item div.an-ends .an-time{display:block;float:left}
+#an-page-bot{clear:both}
+
+@media only screen and (max-width: 320px){
+	#auction-nudge-items div.an-item{padding:3% 1%}
+	}
+
+@media (max-width: 40em) {
+.fundraiser {
+display: none;
+}
+}

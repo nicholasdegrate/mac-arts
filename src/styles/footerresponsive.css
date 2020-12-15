@@ -1,0 +1,75 @@
+
+#domanica2 {
+  width: 34%;
+  margin:20px 20px 0 0;
+  float: left;
+}
+
+#nyfa2 {
+  width: 12%; 
+  float: left;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+#planetgreen2 {
+  width: 5%; 
+  margin: 0 15% 0 2%;
+  /*margin-top: -2%;*/
+  float: right;
+}
+
+#amazon2 {
+  width: 19%; 
+  float: right;
+  /*margin-left: -10%;*/
+  margin-right: 23%;
+  margin-top: -5%;
+}
+
+#neco {
+  margin: -6% 0% 0 0%; 
+  width: 8%;
+  float: right;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.footer {
+    width: 100%;
+    margin: -10px 0 0 0;
+  }
+
+  .footercontent {
+    width: 90%;
+    margin: 10px 5% 0 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #planetgreen2 {
+      margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+  .copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+ 
+
+
