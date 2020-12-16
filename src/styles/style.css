@@ -644,13 +644,13 @@ input[type=submit] {
 .content_box2 h1 a:hover { color: #880000; text-decoration: underline; }
 .content_box2 h1 a:active { color: #880000; text-decoration: none; }
 
-h1 {
+/* h1 {
 	font-family: 'Cardo', serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.25em;
 	margin: 0 0 10px 0;
-}
+} */
 
 .tagline {
 	font-family: "Modern Antiqua";

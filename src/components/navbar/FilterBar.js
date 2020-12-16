@@ -11,21 +11,22 @@ const categories = [
   { name: "Education", smName: "Education", link: '/education' },
 ]
 
-const FilterBar = ({selected}) =>{
+const FilterBar = ({selected}) => {
+
   return(
     <Wrapper>
       <Row>
-        {categories.map(category => (
-          <Col size={2}>
+        {categories.map((category, idx) => (
+          <Col key={idx} size={2}>
             <Link to={category.link} >
-              <FilterTab selected={selected} name={category.name}>{category.name}</FilterTab>
+              <FilterTab  selected={selected} name={category.name}>{category.name}</FilterTab>
             </Link>
           </Col>
         ))}
       </Row>
       <RowSm>
-      {categories.map(category => (
-        <ColSm>
+      {categories.map((category, idx) => (
+        <ColSm key={idx}>
           <Link to={category.link} >
             <FilterTabSm selected={selected} name={category.name}>{category.name}</FilterTabSm>
           </Link>
@@ -33,9 +34,9 @@ const FilterBar = ({selected}) =>{
         ))}
       </RowSm>
       <RowMobile>
-        {categories.map(category => (
-            <Link to={category.link} >
-              <ColMobile selected={selected} name={category.name}>
+        {categories.map((category, idx) => (
+            <Link key={idx} to={category.link} >
+              <ColMobile  selected={selected} name={category.name}>
                 {category.smName}
               </ColMobile>
             </Link> 
@@ -44,6 +45,7 @@ const FilterBar = ({selected}) =>{
     </Wrapper>
   )
 }
+
 const Wrapper = styled.div`
   background: #9A3B3D;
   display: flex;
@@ -51,35 +53,31 @@ const Wrapper = styled.div`
   border-radius: 0 0 5px 5px;
 `
 const Row = styled.div`
-  // margin-bottom: 20px;
   display:flex;
   justify-content: space-evenly;
   background: #9A3B3D;
-  // padding: 1em;
   padding: 1em 0;
   border-radius: 0 0 5px 5px;
   width: 100%;
   max-width: 1200px;
   z-index: 999;
+
   @media (max-width: 1023px) {
     display: none;
   }
 `
 
 const Col = styled.div`
-  // flex: ${(props)=> props.size};
   max-width: 150px;
   width: 100%;
   flex-shrink: 0;
 `
 const ColSm = styled.div`
-  // flex: ${(props)=> props.size};
   max-width: 100px;
   width: 100%;
   flex-shrink: 0;
 `
 const ColMobile = styled.div`
-  // flex: ${(props)=> props.size};
   max-width: 80px;
   width: 100%;
   flex-shrink: 0;
@@ -96,14 +94,12 @@ const FilterTab = styled.div`
   font-size: 12px;
   font-weight: 900;
   text-align:center;
-  // margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom 10px;
-  // text-transform: uppercase;
   color:#9A3B3C;
   ${props => (props.selected === props.name) 
     ? "background: #CC8625; color: white; "
@@ -119,7 +115,6 @@ const FilterTabSm = styled.div`
   font-weight: 900;
   text-align:center;
   padding: 5px;
-  // text-transform: uppercase;
   color:#9A3B3C;
   ${props => (props.selected === props.name) 
     ? "background: #CC8625; color:#CC8625; "
@@ -131,11 +126,9 @@ const FilterTabSm = styled.div`
 `
 
 const RowSm = styled.div`
-  // margin-bottom: 20px;
   display:flex;
   justify-content: space-evenly;
   background: #9A3B3D;
-  // padding: 1em;
   padding: 1em 0;
   border-radius: 0 0 5px 5px;
   width: 100%;
@@ -153,12 +146,13 @@ const RowMobile = styled.div`
   display:flex;
   justify-content: space-evenly;
   background: #9A3B3D;
-  // padding: 1em;
   padding: 1em 0;
   border-radius: 0 0 5px 5px;
   width: 100%;
+
   @media (min-width: 768px) {
     display: none;
   }
 `
+
 export default FilterBar;
