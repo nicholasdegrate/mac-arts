@@ -1,0 +1,23 @@
+import { Flex, Wrapper } from '../liveEventsStyles';
+
+const P2001 = () => (
+  <Wrapper>
+    <Flex>
+      <img src="http://macedonianarts.org/images/2001_1.jpg" />
+      <video width="100%" height="100%" controls>
+        <source src="http://macedonianarts.org/images/2001Violinist.mp4" type="video/mp4" />
+        <object data="" width="100%" height="100%">
+        <embed width="100%" height="100%" src="http://macedonianarts.org/images/2001Violinist.mp4" />
+        </object>
+      </video>
+      <img src="http://macedonianarts.org/images/2001_2.jpg" /> 
+      <img src="http://macedonianarts.org/images/2001_3.jpg" />
+      <img src="http://macedonianarts.org/images/2001_4.jpg" />
+      <img src="http://macedonianarts.org/images/2001_5.jpg" />
+      <img src="http://macedonianarts.org/images/2001_6.jpg" />
+      <img src="http://macedonianarts.org/images/2001_7.jpg" />  
+    </Flex>
+  </Wrapper>
+)
+
+export default P2001;
