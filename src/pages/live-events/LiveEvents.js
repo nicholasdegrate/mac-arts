@@ -30,15 +30,15 @@ return (
     <div css={css`margin: 2rem`}/>
     <Year year="2004" />
     <P2004 />
-    {/* <div css={css`margin: 2rem`}/>
+    <div css={css`margin: 2rem`}/>
     <Year year="2003" />
     <P2003 />
     <Year year="2001" />
     <P2001 />
     <Year year="2000" />
-    <P2000 /> */}
-    {/* <Year year="1995" />
-    <P1995 /> */}
+    <P2000 />
+    <Year year="1995" />
+    <P1995 />
     <Year year="1994" />
     <P1994 />
   </>
