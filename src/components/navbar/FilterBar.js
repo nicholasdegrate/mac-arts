@@ -90,7 +90,7 @@ const FilterTab = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  padding-bottom 10px;
+  padding-bottom: 10px;
   color:#9A3B3C;
   ${props => (props.selected === props.name) 
     ? "background: #CC8625; color: white; "
