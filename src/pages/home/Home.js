@@ -40,7 +40,7 @@ const Home = () => {
           <h1 style={{color:"#9A3B3C"}}>1994-2021</h1>
         </Wrapper>
       </Row>
-      <Row><FilterBar /></Row>
+      <Row><FilterBar page={"home"} /></Row>
       <Row>
         <Col size={2}>
            <Featured />
