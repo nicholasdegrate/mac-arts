@@ -1,11 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
-import { Link } from "@reach/router"
+import { Link } from "@reach/router";
 import styled from 'styled-components';
-import logo from '../../images/logo.png'
-import facebook from '../../icons/facebook.svg'
-import pintrest from '../../icons/pintrest.svg'
-import twitter from '../../icons/twitter.svg'
-import youtube from '../../icons/youtube.svg'
+import logo from '../../images/logo.png';
+import facebook from '../../icons/facebook.svg';
+import pintrest from '../../icons/pintrest.svg';
+import twitter from '../../icons/twitter.svg';
+import youtube from '../../icons/youtube.svg';
 import HamburgerMenu from 'react-hamburger-menu';
 
 const Navbar = () => {
@@ -20,7 +20,6 @@ const Navbar = () => {
     }
 
     document.addEventListener("mousedown", clickOutside)
-
     return () => {
       document.removeEventListener("mousedown", clickOutside)
     }
@@ -110,7 +109,20 @@ const Navbar = () => {
       <ClearFix />
     </>
   )
-}
+};
+
+const Bgr = styled.div`
+  margin-right: 1.5rem;
+
+  @media(min-width: 849px) {
+    display: none;
+  }
+`;
+
+const ClearFix = styled.div`
+  width: 100%;
+  height: 4rem;
+`;
 
 const Dropdown = styled.div`
   position: absolute;
@@ -130,7 +142,7 @@ const Dropdown = styled.div`
     margin: 0;
     transition: 0.4s ease-in;
   `}
-`
+`;
 
 const DropdownItem = styled.div`
   display: flex;
@@ -139,37 +151,13 @@ const DropdownItem = styled.div`
   margin: 2rem;
   cursor: pointer;
   font-size: 24px;
-`
+`;
 
 const DropdownItemText = styled.div`
   &:hover {
     color: white;
   }
-`
-
-const StyledHamburgerMenu = styled.div`
-  cursor: pointer;
-  height: 20px;
-  width: 20px;
-`
-const Bgr = styled.div`
-  margin-right: 1.5rem;
-
-  @media(min-width: 849px) {
-    display: none;
-  }
-`
-
-const Wrapper = styled.div`
-  position: fixed;
-  z-index:1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 4rem;
-  background: white;
-`
+`;
 
 const Left = styled.div`
   display: flex;
@@ -181,7 +169,20 @@ const Left = styled.div`
     width: 250px;
     padding: 1.5rem 0.5rem;
   }
-`
+`;
+
+const LogoImage = styled.img`
+  height: 40px;
+  width: 40px;
+`;
+
+const Name = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 0 1rem;
+  font-family: "Merriweather Sans";
+`;
 
 const Right = styled.div`
   display: flex;
@@ -208,20 +209,7 @@ const Social = styled.div`
     width: 60%;
     min-width: 150px;
   }
-`
-
-const LogoImage = styled.img`
-  height: 40px;
-  width: 40px;
-`
-
-const Name = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  padding: 0 1rem;
-  font-family: "Merriweather Sans";
-`
+`;
 
 const SocialImage = styled.div`
   background: url(${props => props.image}) no-repeat center;
@@ -235,11 +223,23 @@ const SocialImage = styled.div`
       filter: invert(1);
     }
   }
-`
+`;
 
-const ClearFix = styled.div`
+const StyledHamburgerMenu = styled.div`
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+`;
+
+const Wrapper = styled.div`
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 4rem;
-`
+  background: white;
+`;
 
-export default Navbar
+export default Navbar;
