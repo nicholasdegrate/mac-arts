@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import InfiniteScroll from 'react-infinite-scroller';
 
 
 
@@ -59,7 +60,7 @@ const articles =[
 const renderArticles = () =>{
     return articles.map((article,i)=>(
         <Row>
-        <PressImage  key ={i} url={article} />
+        <PressImage  key ={i} url={article}/>
         </Row>
     ))
 }
@@ -75,11 +76,9 @@ return(
     <h1>Council</h1>
   </Wrapper>
     
+  <InfiniteScroll>
     {renderArticles()}
-   
-   
-
-
+    </InfiniteScroll>
     </div>
 )
     
@@ -166,6 +165,10 @@ const PressImage = styled.div`
     border: solid  #9A3B3C 5px;
     border-radius: 15px;
     background-image: url(${(props) => props.url});
+    &:hover {
+      height:900px;
+      width:900px;
+    }
 `;
 
 

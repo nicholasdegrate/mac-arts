@@ -11,6 +11,7 @@ import Video from './pages/video/Video';
 import Audio from './pages/audio/Audio'
 import ArtExhibits from './pages/art-exhibits/ArtExhibits';
 import Education from './pages/education/Education';
+import Footer from './components/footer/Footer'
 
 /*
   About the app structure:
@@ -40,6 +41,7 @@ const App = () => (
       <Contact path="/contact" />
       <NoMatch default/>
     </Router>
+    <Footer />
   </>
 );
 
