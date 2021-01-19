@@ -4,19 +4,20 @@ import newLogo from '../../images/newlogo.jpg'
 const MissionStatement = () => {
   return ( 
   <div>
-    <Statement>
+    <Textbox1>
+      Dedicated
+      to the promotion and affirmation 
+      of <br/>Macedonian cultural heritage, one project at a time.
+     </Textbox1>
+
+     <Statement>
+
     Our main objective is to introduce to 
     people worldwide the rich traditions, language, 
     literature, and art of a nation whose diverse cultural 
     threads are interwoven into the ethnic tapestries of the world.
 
     </Statement>
-
-    <Textbox1>
-      Dedicated
-      to the promotion and affirmation 
-      of Macedonian cultural heritage, one project at a time.
-     </Textbox1>
   </div>
     )
 }
@@ -36,13 +37,15 @@ const Name = styled.div`
 const Statement = styled.div`
   text-align:center;
   display:flex;
+  margin-top: 2.5%;
   padding-left:25%;
   padding-right:25%;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
   background: white;
 `
 
 const Textbox1 = styled.div`
+  font-size:26px;
   width:100%;
   text-align:center;
   color:white;

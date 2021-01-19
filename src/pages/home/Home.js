@@ -20,11 +20,11 @@ const Home = () => {
   return (
     <>
       <Wrapper>
-        <h1>Macedonian</h1>
+        <Styledtext>Macedonian</Styledtext>
         <ArtsText>
           <A>A</A><R>R</R><T>T</T><S>S</S>
         </ArtsText>
-        <h1>Council</h1>
+        <Styledtext>Council</Styledtext>
       </Wrapper>
       <MissionStatement />
       <Row>
@@ -70,18 +70,24 @@ const Col = styled.div`
   flex: ${(props)=> props.size};
 `
 
+const Styledtext = styled.div `
+  font-size: 96px;
+
+`
+
 const Wrapper = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
   text-align:center;
-  padding-bottom: 1rem;
   text-transform: uppercase;
   background:white
   `
 
 const ArtsText =styled.div`
+  margin-top: -5%;
+  margin-bottom: -5%;
   display:flex;
   justify-content: center;
-  font-size: 150px;
+  font-size: 260px;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: 20px;
