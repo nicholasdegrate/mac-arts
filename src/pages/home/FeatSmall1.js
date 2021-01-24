@@ -1,6 +1,5 @@
 import { React } from 'react';
 import styled from 'styled-components';
-import lilts from '../../images/lilts.jpg';
 
 
 const FeatSmall1 = () => {
@@ -43,7 +42,6 @@ const Wrapper = styled.div`
 const FeatDiv = styled.div`
   height: 206px;
   width: 398px;
-  background: url(${lilts}) no-repeat center;
   background-size: cover;
   flex-shrink: 0;
 `

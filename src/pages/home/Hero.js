@@ -1,10 +1,15 @@
-import { React } from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet';
 // import heroImage from '../../images/partings_large.jpg'
 import heroImage from '../../images/heroImage.png'
 const Hero = () => {
 
   return (
+    <Fragment>
+      <Helmet>
+        <link rel="images" href="%PUBLIC_URL%/heroImage." />
+      </Helmet>
     <Wrapper>
           <Name>
           <strong>
@@ -12,6 +17,7 @@ const Hero = () => {
           </strong>
         </Name>
     </Wrapper>
+    </Fragment>
     )
 }
 

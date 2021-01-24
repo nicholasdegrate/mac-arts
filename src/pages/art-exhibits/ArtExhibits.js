@@ -1,7 +1,7 @@
 import React from 'react';
      /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import FilterBar from '../../components/navbar/FilterBar';
+import FilterBar from '../../components/layout/FilterBar';
 import P2005 from '../art-exhibits/2005/P2005';
 import Year from '../../components/project/Year';
 import P2008 from '../art-exhibits/2008/P2008';

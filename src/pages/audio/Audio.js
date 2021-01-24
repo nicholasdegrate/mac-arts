@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import FilterBar from '../../components/navbar/FilterBar';
+import FilterBar from '../../components/layout/FilterBar';
 import Proj1920 from './2019-2020/2019-2020'
 
 const Projects = () => {

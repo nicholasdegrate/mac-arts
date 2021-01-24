@@ -9,7 +9,7 @@ import Gallery from './Gallery';
 import CurrentProject from './CurrentProject';
 import CompletedProject from './CompletedProject';
 import Promoting from './Promoting';
-import FilterBar from '../../components/navbar/FilterBar';
+import FilterBar from '../../components/layout/FilterBar';
 import Featured from "./Featured";
 import FeatSmall1 from "./FeatSmall1"
 import FeatSmall2 from "./FeatSmall2"

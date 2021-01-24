@@ -1,42 +1,46 @@
-import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
-import mask from '../../images/golden_mask.jpg'
-import heroImage from '../../images/heroImage.png'
-//http://www.panacomp.net/wp-content/uploads/2015/11/golden_mask.jpg
+// import React, { useEffect, useState } from 'react';
+// import styled from 'styled-components';
+// import { Helmet } from 'react-helmet';
+// import mask from '../../images/golden_mask.jpg'
+// import heroImage from '../../images/heroImage.png'
+// import { Fragment } from 'react';
+// //http://www.panacomp.net/wp-content/uploads/2015/11/golden_mask.jpg
 
-const images = [
-  mask,
-  heroImage
-]
+// const images = [
+//   mask,
+//   heroImage
+// ]
 
-const Gallery = () => {
-  const [ image, setImage ] = useState();
+// const Gallery = () => {
+//   const [ image, setImage ] = useState();
 
-  useEffect(() => {
-   setImage(images[(Math.floor(Math.random() * images.length))])
-  }, [])
+//   useEffect(() => {
+//    setImage(images[(Math.floor(Math.random() * images.length))])
+//   }, [])
 
-  return (
-    <Wrapper>
-      <MaskDiv image={image}/>
-    </Wrapper>
-    )
-}
+//   return (
+//     <Fragment>
+//     <Wrapper>
+//       <MaskDiv image={image}/>
+//     </Wrapper>
+//     </Fragment>
+//     )
+// }
 
-const Wrapper = styled.div`
-  width: 40vw;
-  min-width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // padding: 1rem 0;
-`
+// const Wrapper = styled.div`
+//   width: 40vw;
+//   min-width: 400px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   // padding: 1rem 0;
+// `
 
-const MaskDiv = styled.div`
-  height: 400px;
-  width: 400px;
-  background: url(${props => props.image}) no-repeat center;
-  background-size: cover;
-  flex-shrink: 0;
-`
-export default Gallery
+// const MaskDiv = styled.div`
+//   height: 400px;
+//   width: 400px;
+//   background: url(${props => props.image}) no-repeat center;
+//   background-size: cover;
+//   flex-shrink: 0;
+// `
+// export default Gallery

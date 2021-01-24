@@ -1,6 +1,5 @@
 import { React } from 'react';
 import styled from 'styled-components';
-import lilts from '../../images/lilts.jpg';
 
 
 const CompletedProject = () => {
@@ -69,7 +68,6 @@ const Wrapper = styled.div`
 const LiltsDiv = styled.div`
   height: 250px;
   width: 250px;
-  background: url(${lilts}) no-repeat center;
   background-size: cover;
   flex-shrink: 0;
 `

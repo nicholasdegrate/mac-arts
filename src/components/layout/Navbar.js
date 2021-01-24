@@ -9,9 +9,9 @@ import youtube from '../../icons/youtube.svg';
 import HamburgerMenu from 'react-hamburger-menu';
 
 const Navbar = () => {
-  const [ open, setOpen ] = useState(false)
+  const [open, setOpen] = useState(false)
   const bgrRef = useRef(null)
-  
+
   useEffect(() => {
     const clickOutside = (e) => {
       if (bgrRef.current && !bgrRef.current.contains(e.target)) {
@@ -31,10 +31,10 @@ const Navbar = () => {
         <Left>
           <LogoImage src={logo} />
           <Link to="/">
-            <Name>            
+            <Name>
               <strong>
                 macedonian arts
-                <div style={{fontSize: "16px", fontWeight: '400'}}>
+                <div style={{ fontSize: "16px", fontWeight: '400', whiteSpace: 'nowrap' }}>
                   council
                 </div>
               </strong>
@@ -63,37 +63,37 @@ const Navbar = () => {
           onBlur={() => setOpen(!open)}
         >
           <StyledHamburgerMenu>
-          <HamburgerMenu
-            isOpen={open}
-            menuClicked={() => setOpen(!open)}
-            width={18}
-            height={15}
-            strokeWidth={1}
-            rotate={0}
-            color='black'
-            borderRadius={0}
-            animationDuration={0.5}
+            <HamburgerMenu
+              isOpen={open}
+              menuClicked={() => setOpen(!open)}
+              width={18}
+              height={15}
+              strokeWidth={1}
+              rotate={0}
+              color='black'
+              borderRadius={0}
+              animationDuration={0.5}
             />
           </StyledHamburgerMenu>
           <Dropdown open={open}>
             <DropdownItem onClick={() => setOpen(false)} >
               <Link to="/about">
                 <DropdownItemText>
-                  ABOUT US 
+                  ABOUT US
                 </DropdownItemText>
               </Link>
             </DropdownItem>
             <DropdownItem onClick={() => setOpen(false)} >
               <Link to="/press">
                 <DropdownItemText>
-                  PRESS 
+                  PRESS
                 </DropdownItemText>
               </Link>
             </DropdownItem>
             <DropdownItem onClick={() => setOpen(false)}>
               <Link to="/contact">
                 <DropdownItemText>
-                  CONTACT 
+                  CONTACT
                 </DropdownItemText>
               </Link>
             </DropdownItem>
@@ -102,9 +102,9 @@ const Navbar = () => {
               <SocialImage image={twitter} />
               <SocialImage image={youtube} />
               <SocialImage image={pintrest} />
-            </Social>            
+            </Social>
           </Dropdown>
-        </Bgr>        
+        </Bgr>
       </Wrapper>
       <ClearFix />
     </>

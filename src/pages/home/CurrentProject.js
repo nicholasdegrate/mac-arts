@@ -1,11 +1,16 @@
-import { React } from 'react';
+import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import lilts from '../../images/lilts.jpg';
 
 const CurrentProject = () => {
 
   return (
-    <Wrapper>
+    <Fragment>
+      <Helmet>
+        <link rel="images" href="%PUBLIC_URL%/waves.svg" />
+      </Helmet>
+      <Wrapper>
       <Row>
      <ProjText>
         Current Project
@@ -29,6 +34,7 @@ const CurrentProject = () => {
 
 
     </Wrapper>
+    </Fragment>
   )
 }
 
@@ -45,7 +51,7 @@ margin-bottom: 1rem;
 padding-left: 100px;
 padding-right: 100px;
 padding-top: 10px;
-padding-bottom 10px;
+padding-bottom: 10px;
 text-transform: uppercase;
 color:white;
 background: #FFD10B;
@@ -84,7 +90,7 @@ text-align:center;
 padding-left: 20px;
 padding-right: 20px;
 padding-top: 10px;
-padding-bottom 10px;
+padding-bottom: 10px;
 text-transform: uppercase;
 color:#FFD10B;
 background: white;

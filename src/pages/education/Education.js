@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { jsx, css } from '@emotion/react';
-import FilterBar from '../../components/navbar/FilterBar';
+import FilterBar from '../../components/layout/FilterBar';
 import Year from '../../components/project/Year';
 
 const Education = () => (

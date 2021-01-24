@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-import FilterBar from '../../components/navbar/FilterBar';
+import FilterBar from '../../components/layout/FilterBar';
 
 
 const Video = () => (

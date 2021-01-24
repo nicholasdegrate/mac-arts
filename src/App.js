@@ -1,22 +1,28 @@
-import './App.css';
-import Navbar from './components/navbar/Navbar';
 import { Router } from '@reach/router';
+import { ChakraProvider } from '@chakra-ui/react';
+
+// style
+import './styles/App.css';
+
+//components
+import Navbar from './components/layout/Navbar';
+import customTheme from './Theme';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Press from './pages/press/Press';
-import Contact from './pages/contact/contact';
-import NoMatch from './components/no-match/NoMatch';
+import Contact from './pages/contact';
+import NoMatch from './components/statusCode/404';
 import LiveEvents from './pages/live-events/LiveEvents';
 import Video from './pages/video/Video';
 import Audio from './pages/audio/Audio'
 import ArtExhibits from './pages/art-exhibits/ArtExhibits';
 import Education from './pages/education/Education';
-import Footer from './components/footer/Footer'
+import Footer from './components/layout/Footer'
 
 /*
   About the app structure:
   Components directory: Use for reusable components. Ex. Navbar
-  Pages directory:  Use for the pages that are impored here.
+  Pages directory:  Use for the pages that are imported here.
         You can create folders in this directory for pages and components that are
         only used in that screen. (If used in other places, use component directory instead)
   Projects directory: Pages sub-directory for project pages. 
@@ -27,7 +33,7 @@ import Footer from './components/footer/Footer'
 */
 
 const App = () => (
-  <>
+  <ChakraProvider theme={customTheme} resetCSS={true}>
     <Navbar />
     <Router>
       <Home path="/" />
@@ -42,7 +48,7 @@ const App = () => (
       <NoMatch default/>
     </Router>
     <Footer />
-  </>
+  </ChakraProvider>
 );
 
 export default App;
